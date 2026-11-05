@@ -1,0 +1,12 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W1105 06:49:11.041698 28765 transfer_engine_py.cpp:301] Using 64KB-aligned malloc/free for protocol: tcp
+I1105 06:49:11.041783 28765 transfer_engine_impl.cpp:1184] Metrics reporting is disabled (set MC_TE_METRIC=1 to enable)
+I1105 06:49:11.041827 28765 transfer_engine_impl.cpp:147] Transfer Engine parseHostNameWithPort. server_name: 127.0.0.1 port: 0
+I1105 06:49:11.041858 28765 transfer_engine_impl.cpp:214] Transfer Engine RPC using P2P handshake, listening on 127.0.0.1:16745
+E1105 06:49:11.041960 28765 transfer_metadata.cpp:1367] Local segment descriptor not found
+I1105 06:49:11.041980 28765 tcp_transport.cpp:432] TcpTransport: listen on port 16228
+I1105 06:49:11.042101 28765 tcp_transport.cpp:448] TcpTransport: I/O pool started with 1 thread(s)
+I1105 06:49:11.042109 28765 transfer_engine_impl.cpp:250] MC_FORCE_TCP is set, using TCP transport only
+I1105 06:49:11.042773 28765 transfer_engine_py.cpp:976] transferSync, cache not found, openSegment with target 127.0.0.1:16271
+PASS: READ 1048576 bytes, full payload verified, 2224.292 ms
+I1105 06:49:13.271049 28765 transfer_metadata.cpp:829] removeSegmentDesc 127.0.0.1:16745 finish

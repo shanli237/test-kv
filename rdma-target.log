@@ -1,0 +1,20 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W1105 06:48:15.476455 28432 transfer_engine_py.cpp:301] Using 64KB-aligned malloc/free for protocol: rdma
+I1105 06:48:15.476539 28432 transfer_engine_impl.cpp:1184] Metrics reporting is disabled (set MC_TE_METRIC=1 to enable)
+I1105 06:48:15.476584 28432 transfer_engine_impl.cpp:147] Transfer Engine parseHostNameWithPort. server_name: 11.163.39.114 port: 0
+I1105 06:48:15.476616 28432 transfer_engine_impl.cpp:214] Transfer Engine RPC using P2P handshake, listening on 11.163.39.114:15829
+I1105 06:48:15.476699 28432 transfer_engine_impl.cpp:318] Auto-discovering topology...
+I1105 06:48:15.481738 28432 topology.cpp:134] Device mlx5_bond_0 port 1 is available
+I1105 06:48:16.625780 28432 transfer_engine_impl.cpp:345] Topology discovery complete. Found 1 HCAs.
+I1105 06:48:16.625833 28432 rdma_transport.cpp:267] [RDMA] Relaxed ordering is supported on this host; IBV_ACCESS_RELAXED_ORDERING will be requested for registered memory regions.
+I1105 06:48:16.625855 28432 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_0 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1105 06:48:16.625859 28432 rdma_context.cpp:311] Using SIEVE endpoint store
+I1105 06:48:16.631299 28432 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_0/1 (network state: with network device)
+I1105 06:48:16.633376 28432 rdma_context.cpp:407] RDMA device: mlx5_bond_0, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:0c:c0:00:00:00:00:00:00:00:01
+I1105 06:48:16.633422 28432 transfer_metadata.cpp:61] NIC path intern pool size=1
+I1105 06:48:16.633479 28432 transfer_engine_impl.cpp:480] Using RDMA transport (RoCE/iWARP)
+W1105 06:48:16.635367 28432 memory_location.cpp:196] Failed to get NUMA node, addr: 0x7f1ec0676010, len: 1048576: Operation not permitted [1]
+READY {"server": "11.163.39.114:15829", "address": 139770053746704, "size": 1048576}
+I1105 06:48:31.256536 28439 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+W1105 06:48:59.872074 28432 rdma_context.cpp:990] Failed to restore fork state for memory region at 0x7f1ec0676010 (1048576 bytes), deregister already succeeded: Invalid argument [22]
+I1105 06:48:59.874265 28432 transfer_metadata.cpp:829] removeSegmentDesc 11.163.39.114:15829 finish
