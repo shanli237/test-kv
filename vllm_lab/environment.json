@@ -1,0 +1,9 @@
+{
+  "vllm": "0.31.0",
+  "torch": "2.13.0+cu130",
+  "transformers": "5.17.0",
+  "mooncake-transfer-engine-cuda13": "0.3.14",
+  "fastapi": "0.136.3",
+  "uvicorn": "0.54.0",
+  "httpx": "0.28.1"
+}

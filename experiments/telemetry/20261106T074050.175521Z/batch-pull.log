@@ -1,0 +1,69 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W1106 07:41:12.355794 10461 transfer_engine_py.cpp:301] Using 64KB-aligned malloc/free for protocol: rdma
+I1106 07:41:12.355870 10461 transfer_engine_impl.cpp:1184] Metrics reporting is disabled (set MC_TE_METRIC=1 to enable)
+I1106 07:41:12.355906 10461 transfer_engine_impl.cpp:147] Transfer Engine parseHostNameWithPort. server_name: 11.163.39.114 port: 0
+I1106 07:41:12.355935 10461 transfer_engine_impl.cpp:214] Transfer Engine RPC using P2P handshake, listening on 11.163.39.114:16141
+I1106 07:41:12.355996 10461 transfer_engine_impl.cpp:318] Auto-discovering topology...
+I1106 07:41:12.355999 10461 topology.cpp:175] IB device whitelist: mlx5_bond_0
+I1106 07:41:12.361202 10461 topology.cpp:134] Device mlx5_bond_0 port 1 is available
+I1106 07:41:13.729581 10461 transfer_engine_impl.cpp:345] Topology discovery complete. Found 1 HCAs.
+I1106 07:41:13.729635 10461 rdma_transport.cpp:267] [RDMA] Relaxed ordering is supported on this host; IBV_ACCESS_RELAXED_ORDERING will be requested for registered memory regions.
+I1106 07:41:13.729660 10461 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_0 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1106 07:41:13.729663 10461 rdma_context.cpp:311] Using SIEVE endpoint store
+I1106 07:41:13.734851 10461 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_0/1 (network state: with network device)
+I1106 07:41:13.736842 10461 rdma_context.cpp:407] RDMA device: mlx5_bond_0, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:0c:c0:00:00:00:00:00:00:00:01
+I1106 07:41:13.736882 10461 transfer_metadata.cpp:61] NIC path intern pool size=1
+I1106 07:41:13.736922 10461 transfer_engine_impl.cpp:480] Using RDMA transport (RoCE/iWARP)
+BEGIN iteration=-2 mode=batch
+PASS iteration=-2 bytes=268435456 seconds=0.082026
+BEGIN iteration=-1 mode=batch
+PASS iteration=-1 bytes=268435456 seconds=0.005883
+BEGIN iteration=0 mode=batch
+PASS iteration=0 bytes=268435456 seconds=0.006001
+BEGIN iteration=1 mode=batch
+PASS iteration=1 bytes=268435456 seconds=0.005856
+BEGIN iteration=2 mode=batch
+PASS iteration=2 bytes=268435456 seconds=0.006052
+BEGIN iteration=3 mode=batch
+PASS iteration=3 bytes=268435456 seconds=0.005827
+BEGIN iteration=4 mode=batch
+PASS iteration=4 bytes=268435456 seconds=0.005870
+BEGIN iteration=5 mode=batch
+PASS iteration=5 bytes=268435456 seconds=0.005817
+BEGIN iteration=6 mode=batch
+PASS iteration=6 bytes=268435456 seconds=0.005827
+BEGIN iteration=7 mode=batch
+PASS iteration=7 bytes=268435456 seconds=0.005822
+BEGIN iteration=8 mode=batch
+PASS iteration=8 bytes=268435456 seconds=0.005872
+BEGIN iteration=9 mode=batch
+PASS iteration=9 bytes=268435456 seconds=0.005816
+BEGIN iteration=10 mode=batch
+PASS iteration=10 bytes=268435456 seconds=0.005868
+BEGIN iteration=11 mode=batch
+PASS iteration=11 bytes=268435456 seconds=0.005844
+BEGIN iteration=12 mode=batch
+PASS iteration=12 bytes=268435456 seconds=0.005885
+BEGIN iteration=13 mode=batch
+PASS iteration=13 bytes=268435456 seconds=0.005841
+BEGIN iteration=14 mode=batch
+PASS iteration=14 bytes=268435456 seconds=0.005834
+BEGIN iteration=15 mode=batch
+PASS iteration=15 bytes=268435456 seconds=0.005896
+BEGIN iteration=16 mode=batch
+PASS iteration=16 bytes=268435456 seconds=0.005854
+BEGIN iteration=17 mode=batch
+PASS iteration=17 bytes=268435456 seconds=0.005852
+BEGIN iteration=18 mode=batch
+PASS iteration=18 bytes=268435456 seconds=0.006010
+BEGIN iteration=19 mode=batch
+PASS iteration=19 bytes=268435456 seconds=0.005873
+BEGIN iteration=20 mode=batch
+PASS iteration=20 bytes=268435456 seconds=0.005849
+BEGIN iteration=21 mode=batch
+PASS iteration=21 bytes=268435456 seconds=0.005862
+BEGIN iteration=22 mode=batch
+PASS iteration=22 bytes=268435456 seconds=0.005862
+BEGIN iteration=23 mode=batch
+PASS iteration=23 bytes=268435456 seconds=0.005919
+I1106 07:41:18.576571 10461 transfer_metadata.cpp:829] removeSegmentDesc 11.163.39.114:16141 finish

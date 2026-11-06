@@ -1,0 +1,73 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W1106 07:46:33.731204 10858 transfer_engine_py.cpp:301] Using 64KB-aligned malloc/free for protocol: rdma
+I1106 07:46:33.731276 10858 transfer_engine_impl.cpp:1184] Metrics reporting is disabled (set MC_TE_METRIC=1 to enable)
+I1106 07:46:33.731313 10858 transfer_engine_impl.cpp:147] Transfer Engine parseHostNameWithPort. server_name: 11.163.39.114 port: 0
+I1106 07:46:33.731340 10858 transfer_engine_impl.cpp:214] Transfer Engine RPC using P2P handshake, listening on 11.163.39.114:15730
+I1106 07:46:33.731447 10858 transfer_engine_impl.cpp:318] Auto-discovering topology...
+I1106 07:46:33.731451 10858 topology.cpp:175] IB device whitelist: mlx5_bond_0
+I1106 07:46:33.737754 10858 topology.cpp:134] Device mlx5_bond_0 port 1 is available
+I1106 07:46:34.591341 10858 transfer_engine_impl.cpp:345] Topology discovery complete. Found 1 HCAs.
+I1106 07:46:34.591398 10858 rdma_transport.cpp:267] [RDMA] Relaxed ordering is supported on this host; IBV_ACCESS_RELAXED_ORDERING will be requested for registered memory regions.
+I1106 07:46:34.591427 10858 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_0 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1106 07:46:34.591430 10858 rdma_context.cpp:311] Using SIEVE endpoint store
+I1106 07:46:34.597805 10858 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_0/1 (network state: with network device)
+I1106 07:46:34.600136 10858 rdma_context.cpp:407] RDMA device: mlx5_bond_0, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:0c:c0:00:00:00:00:00:00:00:01
+I1106 07:46:34.600190 10858 transfer_metadata.cpp:61] NIC path intern pool size=1
+I1106 07:46:34.600243 10858 transfer_engine_impl.cpp:480] Using RDMA transport (RoCE/iWARP)
+BEGIN iteration=-2 mode=parallel
+I1106 07:46:34.711845 10902 transfer_engine_py.cpp:976] transferSync, cache not found, openSegment with target 11.163.39.110:15715
+PASS iteration=-2 bytes=268435456 seconds=0.037888
+BEGIN iteration=-1 mode=parallel
+PASS iteration=-1 bytes=268435456 seconds=0.006812
+BEGIN iteration=0 mode=parallel
+PASS iteration=0 bytes=268435456 seconds=0.006102
+BEGIN iteration=1 mode=parallel
+PASS iteration=1 bytes=268435456 seconds=0.005967
+BEGIN iteration=2 mode=parallel
+PASS iteration=2 bytes=268435456 seconds=0.005959
+BEGIN iteration=3 mode=parallel
+W1106 07:46:35.654055 10904 multi_transport.cpp:151] Batch 140413151219264 is still busy; cleanup has been deferred
+PASS iteration=3 bytes=268435456 seconds=0.006012
+BEGIN iteration=4 mode=parallel
+PASS iteration=4 bytes=268435456 seconds=0.005981
+BEGIN iteration=5 mode=parallel
+PASS iteration=5 bytes=268435456 seconds=0.005925
+BEGIN iteration=6 mode=parallel
+PASS iteration=6 bytes=268435456 seconds=0.005944
+BEGIN iteration=7 mode=parallel
+PASS iteration=7 bytes=268435456 seconds=0.006029
+BEGIN iteration=8 mode=parallel
+PASS iteration=8 bytes=268435456 seconds=0.005941
+BEGIN iteration=9 mode=parallel
+PASS iteration=9 bytes=268435456 seconds=0.006229
+BEGIN iteration=10 mode=parallel
+PASS iteration=10 bytes=268435456 seconds=0.005906
+BEGIN iteration=11 mode=parallel
+PASS iteration=11 bytes=268435456 seconds=0.005908
+BEGIN iteration=12 mode=parallel
+W1106 07:46:37.286957 10904 multi_transport.cpp:151] Batch 140413151219904 is still busy; cleanup has been deferred
+PASS iteration=12 bytes=268435456 seconds=0.006045
+BEGIN iteration=13 mode=parallel
+PASS iteration=13 bytes=268435456 seconds=0.006042
+BEGIN iteration=14 mode=parallel
+PASS iteration=14 bytes=268435456 seconds=0.005940
+BEGIN iteration=15 mode=parallel
+PASS iteration=15 bytes=268435456 seconds=0.006049
+BEGIN iteration=16 mode=parallel
+PASS iteration=16 bytes=268435456 seconds=0.005991
+BEGIN iteration=17 mode=parallel
+W1106 07:46:38.238804 10902 multi_transport.cpp:151] Batch 140413553905664 is still busy; cleanup has been deferred
+PASS iteration=17 bytes=268435456 seconds=0.005985
+BEGIN iteration=18 mode=parallel
+PASS iteration=18 bytes=268435456 seconds=0.005965
+BEGIN iteration=19 mode=parallel
+PASS iteration=19 bytes=268435456 seconds=0.006187
+BEGIN iteration=20 mode=parallel
+PASS iteration=20 bytes=268435456 seconds=0.005924
+BEGIN iteration=21 mode=parallel
+PASS iteration=21 bytes=268435456 seconds=0.006011
+BEGIN iteration=22 mode=parallel
+PASS iteration=22 bytes=268435456 seconds=0.005923
+BEGIN iteration=23 mode=parallel
+PASS iteration=23 bytes=268435456 seconds=0.005888
+I1106 07:46:39.499558 10858 transfer_metadata.cpp:829] removeSegmentDesc 11.163.39.114:15730 finish

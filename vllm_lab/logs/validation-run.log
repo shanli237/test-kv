@@ -1,0 +1,6 @@
+/workspace/FuseLink/testvllm/experiments/vllm-pd/20261106T080624Z
+Traceback (most recent call last):
+  File "/workspace/FuseLink/testvllm/vllm_lab/validate_pd.py", line 50, in <module>
+    assert baseline['response']['choices'][0]['text']==disagg['response']['choices'][0]['text'],f'greedy mismatch: {repeat}'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: greedy mismatch: 1

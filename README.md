@@ -91,3 +91,22 @@ cd test-kv
 ```
 
 Mooncake 以子模块固定到 v0.3.14。结果汇总见 [RESULTS.md](RESULTS.md)，原始日志保留在仓库根目录。运行时 target*.json 包含进程地址，只在源进程存活期间有效，不纳入版本管理。
+
+## 多网卡选择监测
+
+已完成单卡/多卡 × 单请求/批请求四组跨机实验，见 [详细报告](experiments/nic-selection/REPORT.md)。原始分片日志、两端计数器和汇总均保存在同目录。
+
+NUMA 权限恢复后的单卡/多卡性能对比（含四路并发）见 [NUMA 性能报告](experiments/numa-performance/REPORT.md)。充分热身的复测中，四路并发多卡吞吐约为单卡 2.18 倍；首次独立运行约 3.96 倍，存在运行间波动。
+
+固定本地 bond_0、仅改变远端单卡/四卡的 ABBA 对照见 [远端多卡隔离实验](experiments/remote-nic-control/REPORT.md)：单个大 READ 和 batch 分别复现约 21% 和 18% 的有效吞吐提升。
+
+## 持续网卡采样与 TE 调用事件
+
+使用 [监控工具](monitoring/README.md) 采集两端 NIC 时间序列和应用层 READ 事件，并生成 PNG/PDF 图表。每次结果保存在独立的 `experiments/telemetry/<UTC时间戳>/`，避免覆盖此前实验。
+
+最新验证：[跨机持续监控结果与图表](experiments/telemetry/20261106T074611.659512Z/REPORT.md)，两端约 100 ms 采样，78 轮完整校验通过。
+
+## 真实 vLLM P/D GPU KV 实验
+
+已部署两节点 vLLM + MooncakeConnector，[使用/启停说明](vllm_lab/README.md)。本版本由 decode 请求 KV，prefill 通过 RDMA WRITE 发送 GPU KV，并非 RDMA READ。
+[真实请求验证报告](experiments/vllm-pd/20261106T081631Z/REPORT.md)：三组输出对照一致，11 次 GPU KV WRITE 全部成功，附两端网卡时间序列与日志。

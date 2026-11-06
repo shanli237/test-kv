@@ -1,0 +1,31 @@
+{
+  "start_wall_ns": 1793952384532849946,
+  "scope": "cross-host GPU KV WRITE",
+  "model": "Qwen2.5-0.5B-Instruct",
+  "out": "/workspace/FuseLink/testvllm/experiments/vllm-pd/20261106T080624Z",
+  "clock_probes": [
+    {
+      "offset_min_ns": -299834,
+      "offset_max_ns": -137223
+    },
+    {
+      "offset_min_ns": -296198,
+      "offset_max_ns": -153977
+    },
+    {
+      "offset_min_ns": -298711,
+      "offset_max_ns": -166979
+    },
+    {
+      "offset_min_ns": -287879,
+      "offset_max_ns": -166322
+    },
+    {
+      "offset_min_ns": -293256,
+      "offset_max_ns": -167434
+    }
+  ],
+  "status": "failed",
+  "error": "AssertionError('greedy mismatch: 1')",
+  "end_wall_ns": 1793952388846509862
+}

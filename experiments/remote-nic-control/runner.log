@@ -1,0 +1,12 @@
+PASS diagnostic-0-one-single
+PASS diagnostic-0-one-batch
+PASS diagnostic-1-four-single
+PASS diagnostic-1-four-batch
+PASS performance-0-one-single
+PASS performance-0-one-batch
+PASS performance-1-four-batch
+PASS performance-1-four-single
+PASS performance-2-four-single
+PASS performance-2-four-batch
+PASS performance-3-one-batch
+PASS performance-3-one-single

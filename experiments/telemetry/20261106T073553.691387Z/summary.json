@@ -1,0 +1,166 @@
+{
+  "scope": "same-host",
+  "samplers": {
+    "local": {
+      "samples": 159,
+      "median_read_ms": 149.56654,
+      "max_read_ms": 235.600648,
+      "counter_resets": [],
+      "read_errors": 0,
+      "nonzero_counter_deltas": {
+        "mlx5_bond_0/1/counters/port_rcv_data": 5342325571,
+        "mlx5_bond_0/1/counters/port_rcv_packets": 5431470,
+        "mlx5_bond_0/1/counters/port_xmit_data": 11353,
+        "mlx5_bond_0/1/counters/port_xmit_packets": 166,
+        "mlx5_bond_0/1/counters/unicast_rcv_packets": 5431470,
+        "mlx5_bond_0/1/counters/unicast_xmit_packets": 166,
+        "mlx5_bond_0/1/hw_counters/resp_cqe_error": 768,
+        "mlx5_bond_0/1/hw_counters/resp_cqe_flush_error": 765,
+        "mlx5_bond_0/1/hw_counters/rx_read_requests": 319488,
+        "mlx5_bond_0/1/hw_counters/rx_write_requests": 14,
+        "mlx5_bond_1/1/counters/port_rcv_data": 3363,
+        "mlx5_bond_1/1/counters/port_rcv_packets": 95,
+        "mlx5_bond_1/1/counters/port_xmit_data": 3291,
+        "mlx5_bond_1/1/counters/port_xmit_packets": 95,
+        "mlx5_bond_1/1/counters/unicast_rcv_packets": 95,
+        "mlx5_bond_1/1/counters/unicast_xmit_packets": 95,
+        "mlx5_bond_1/1/hw_counters/rx_write_requests": 26,
+        "mlx5_bond_2/1/counters/port_rcv_data": 2676,
+        "mlx5_bond_2/1/counters/port_rcv_packets": 64,
+        "mlx5_bond_2/1/counters/port_xmit_data": 2745,
+        "mlx5_bond_2/1/counters/port_xmit_packets": 60,
+        "mlx5_bond_2/1/counters/unicast_rcv_packets": 64,
+        "mlx5_bond_2/1/counters/unicast_xmit_packets": 60,
+        "mlx5_bond_2/1/hw_counters/rx_write_requests": 13,
+        "mlx5_bond_3/1/counters/port_rcv_data": 3669,
+        "mlx5_bond_3/1/counters/port_rcv_packets": 76,
+        "mlx5_bond_3/1/counters/port_xmit_data": 2197,
+        "mlx5_bond_3/1/counters/port_xmit_packets": 52,
+        "mlx5_bond_3/1/counters/unicast_rcv_packets": 76,
+        "mlx5_bond_3/1/counters/unicast_xmit_packets": 52,
+        "mlx5_bond_3/1/hw_counters/rx_write_requests": 4
+      },
+      "inventory": {
+        "mlx5_bond_0": {
+          "device_path": "/sys/devices/pci0000:15/0000:15:02.0/0000:16:00.0/0000:17:00.0/0000:18:00.0",
+          "numa_node": "0",
+          "netdevs": {
+            "reth0": {
+              "iflink": "4",
+              "phys_port_name": "p0",
+              "slaves": null
+            }
+          }
+        },
+        "mlx5_bond_1": {
+          "device_path": "/sys/devices/pci0000:2c/0000:2c:02.0/0000:2d:00.0/0000:2e:00.0/0000:2f:00.0",
+          "numa_node": "0",
+          "netdevs": {
+            "reth2": {
+              "iflink": "6",
+              "phys_port_name": "p0",
+              "slaves": null
+            }
+          }
+        },
+        "mlx5_bond_2": {
+          "device_path": "/sys/devices/pci0000:62/0000:62:02.0/0000:63:00.0/0000:64:00.0/0000:65:00.0",
+          "numa_node": "0",
+          "netdevs": {
+            "reth4": {
+              "iflink": "8",
+              "phys_port_name": "p0",
+              "slaves": null
+            }
+          }
+        },
+        "mlx5_bond_3": {
+          "device_path": "/sys/devices/pci0000:6f/0000:6f:02.0/0000:70:00.0/0000:71:00.0/0000:72:00.0",
+          "numa_node": "0",
+          "netdevs": {
+            "reth6": {
+              "iflink": "10",
+              "phys_port_name": "p0",
+              "slaves": null
+            }
+          }
+        },
+        "mlx5_bond_4": {
+          "device_path": "/sys/devices/pci0000:95/0000:95:02.0/0000:96:00.0/0000:97:00.0/0000:98:00.0",
+          "numa_node": "1",
+          "netdevs": {
+            "reth8": {
+              "iflink": "12",
+              "phys_port_name": "p0",
+              "slaves": null
+            }
+          }
+        },
+        "mlx5_bond_5": {
+          "device_path": "/sys/devices/pci0000:b5/0000:b5:02.0/0000:b6:00.0/0000:b7:00.0/0000:b8:00.0",
+          "numa_node": "1",
+          "netdevs": {
+            "reth10": {
+              "iflink": "14",
+              "phys_port_name": "p0",
+              "slaves": null
+            }
+          }
+        },
+        "mlx5_bond_6": {
+          "device_path": "/sys/devices/pci0000:d5/0000:d5:02.0/0000:d6:00.0/0000:d7:00.0/0000:d8:00.0",
+          "numa_node": "1",
+          "netdevs": {
+            "reth12": {
+              "iflink": "16",
+              "phys_port_name": "p0",
+              "slaves": null
+            }
+          }
+        },
+        "mlx5_bond_7": {
+          "device_path": "/sys/devices/pci0000:e5/0000:e5:02.0/0000:e6:00.0/0000:e7:00.0/0000:e8:00.0",
+          "numa_node": "1",
+          "netdevs": {
+            "reth14": {
+              "iflink": "18",
+              "phys_port_name": "p0",
+              "slaves": null
+            }
+          }
+        }
+      }
+    }
+  },
+  "calls": {
+    "single": {
+      "measured_calls": 24,
+      "median_API_ms": 4.958799000000001,
+      "max_API_ms": 5.242521,
+      "verified_iterations": 26
+    },
+    "batch": {
+      "measured_calls": 24,
+      "median_API_ms": 4.96005,
+      "max_API_ms": 5.542453,
+      "verified_iterations": 26
+    },
+    "parallel": {
+      "measured_calls": 96,
+      "median_API_ms": 3.768774,
+      "max_API_ms": 4.942524,
+      "verified_iterations": 26
+    }
+  },
+  "limitations": [
+    "Counters are host-wide; background traffic is not subtracted.",
+    "100 ms averages miss short bursts. No NIC hardware queue occupancy is measured.",
+    "In-flight tracks Python-to-TE API calls, including software work, not posted RDMA WRs.",
+    "Batch is one API call containing many requests. Warmup calls are included.",
+    "Workload is closed-loop with clear/verify gaps, not a steady saturation benchmark.",
+    "No per-transfer automatic NIC choice trace or internal retry event instrumentation in this capture.",
+    "Device/netdev inventory is evidence only; physical bond members and link utilization denominator remain unverified."
+  ],
+  "peak_application_inflight_calls": 4,
+  "peak_application_inflight_MiB": 256.0
+}

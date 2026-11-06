@@ -1,0 +1,53 @@
+{
+  "run_id": "20261106T074249.062116Z",
+  "scope": "cross-host",
+  "config": {
+    "remote": "11.163.39.110",
+    "local_host": "11.163.39.114",
+    "remote_host": "11.163.39.110",
+    "repeats": 24,
+    "mib": 256
+  },
+  "start_wall_ns": 1793950969062222906,
+  "clock_probes": [
+    {
+      "local_before_ns": 1793950969447336750,
+      "remote_ns": 1793950969447159723,
+      "local_after_ns": 1793950969447518664,
+      "offset_min_ns": -358941,
+      "offset_max_ns": -177027
+    },
+    {
+      "local_before_ns": 1793950969447522344,
+      "remote_ns": 1793950969447311360,
+      "local_after_ns": 1793950969447658518,
+      "offset_min_ns": -347158,
+      "offset_max_ns": -210984
+    },
+    {
+      "local_before_ns": 1793950969447659579,
+      "remote_ns": 1793950969447444855,
+      "local_after_ns": 1793950969447793153,
+      "offset_min_ns": -348298,
+      "offset_max_ns": -214724
+    },
+    {
+      "local_before_ns": 1793950969447793812,
+      "remote_ns": 1793950969447578597,
+      "local_after_ns": 1793950969447921680,
+      "offset_min_ns": -343083,
+      "offset_max_ns": -215215
+    },
+    {
+      "local_before_ns": 1793950969447921989,
+      "remote_ns": 1793950969447709500,
+      "local_after_ns": 1793950969448056259,
+      "offset_min_ns": -346759,
+      "offset_max_ns": -212489
+    }
+  ],
+  "status": "failed",
+  "error": "RuntimeError('local-sampler exited: inspect /workspace/FuseLink/testvllm/experiments/telemetry/20261106T074249.062116Z')",
+  "cleanup_errors": [],
+  "end_wall_ns": 1793950978586077079
+}

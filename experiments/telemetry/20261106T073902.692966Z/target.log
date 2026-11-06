@@ -1,0 +1,8 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W1106 07:39:05.124468  1972 transfer_engine_py.cpp:301] Using 64KB-aligned malloc/free for protocol: rdma
+I1106 07:39:05.124595  1972 transfer_engine_impl.cpp:1184] Metrics reporting is disabled (set MC_TE_METRIC=1 to enable)
+I1106 07:39:05.124650  1972 transfer_engine_impl.cpp:147] Transfer Engine parseHostNameWithPort. server_name: 11.163.39.110 port: 0
+I1106 07:39:05.124678  1972 transfer_engine_impl.cpp:214] Transfer Engine RPC using P2P handshake, listening on 11.163.39.110:16124
+I1106 07:39:05.124755  1972 transfer_engine_impl.cpp:318] Auto-discovering topology...
+I1106 07:39:05.124759  1972 topology.cpp:175] IB device whitelist: mlx5_bond_0
+I1106 07:39:05.130065  1972 topology.cpp:134] Device mlx5_bond_0 port 1 is available

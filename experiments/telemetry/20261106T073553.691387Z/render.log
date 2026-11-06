@@ -1,0 +1,25 @@
+{
+  "scope": "same-host",
+  "calls": {
+    "single": {
+      "measured_calls": 24,
+      "median_API_ms": 4.958799000000001,
+      "max_API_ms": 5.242521,
+      "verified_iterations": 26
+    },
+    "batch": {
+      "measured_calls": 24,
+      "median_API_ms": 4.96005,
+      "max_API_ms": 5.542453,
+      "verified_iterations": 26
+    },
+    "parallel": {
+      "measured_calls": 96,
+      "median_API_ms": 3.768774,
+      "max_API_ms": 4.942524,
+      "verified_iterations": 26
+    }
+  },
+  "peak_application_inflight_calls": 4,
+  "peak_application_inflight_MiB": 256.0
+}

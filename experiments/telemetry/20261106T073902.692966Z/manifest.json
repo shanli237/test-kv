@@ -1,0 +1,39 @@
+{
+  "run_id": "20261106T073902.692966Z",
+  "scope": "cross-host",
+  "config": {
+    "remote": "11.163.39.110",
+    "local_host": "11.163.39.114",
+    "remote_host": "11.163.39.110",
+    "repeats": 24,
+    "mib": 256
+  },
+  "start_wall_ns": 1793950742693091588,
+  "clock_probes": [
+    {
+      "local_before_ns": 1793950742883279683,
+      "remote_ns": 1793950743081136712,
+      "local_after_ns": 1793950743087001935,
+      "offset_min_ns": -5865223,
+      "offset_max_ns": 197857029
+    },
+    {
+      "local_before_ns": 1793950743087009107,
+      "remote_ns": 1793950743282704942,
+      "local_after_ns": 1793950743286512299,
+      "offset_min_ns": -3807357,
+      "offset_max_ns": 195695835
+    },
+    {
+      "local_before_ns": 1793950743286518075,
+      "remote_ns": 1793950743485115902,
+      "local_after_ns": 1793950743488840134,
+      "offset_min_ns": -3724232,
+      "offset_max_ns": 198597827
+    }
+  ],
+  "status": "failed",
+  "error": "TimeoutError('target')",
+  "cleanup_errors": [],
+  "end_wall_ns": 1793950775191559175
+}

@@ -1,0 +1,6 @@
+PASS single-nic-performance-single
+PASS single-nic-performance-batch
+PASS single-nic-performance-parallel
+PASS multi-nic-performance-single
+PASS multi-nic-performance-batch
+PASS multi-nic-performance-parallel

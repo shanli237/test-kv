@@ -2,3 +2,16 @@
 __pycache__/
 *.py[cod]
 /target*.json
+/experiments/nic-selection/probe-*.json
+
+/experiments/numa-check/target.json
+/experiments/numa-performance/probe-*.json
+/experiments/numa-performance-warm/probe-*.json
+
+/experiments/remote-nic-control/probe-*.json
+/experiments/telemetry/*/target.json
+/experiments/telemetry/*/*.pid
+.venv-vllm/
+/vllm_lab/models/
+/vllm_lab/logs/*.pid
+/experiments/vllm-pd/*/*.pid

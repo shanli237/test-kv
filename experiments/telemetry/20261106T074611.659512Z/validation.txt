@@ -1,0 +1,6 @@
+local samples 249 mean_interval_s 0.09999402141129032
+remote samples 244 mean_interval_s 0.09999469487654321
+single calls 26 verified_iterations 26
+batch calls 26 verified_iterations 26
+parallel calls 104 verified_iterations 26
+PASS total_verified_GiB 19.5

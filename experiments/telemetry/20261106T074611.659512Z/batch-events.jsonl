@@ -1,0 +1,78 @@
+{"event": "call_start", "mono_ns": 3012902974714087, "wall_ns": 1793951187227744414, "transfer_id": 0, "bytes": 268435456, "iteration": -2, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012903011819641, "wall_ns": 1793951187264850347, "mode": "batch", "transfer_id": 0, "duration_ns": 37072295, "rc": 0}
+{"event": "verified", "mono_ns": 3012903162374726, "wall_ns": 1793951187415405169, "iteration": -2, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012903188315790, "wall_ns": 1793951187441344799, "transfer_id": 1, "bytes": 268435456, "iteration": -1, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012903194169260, "wall_ns": 1793951187447198069, "mode": "batch", "transfer_id": 1, "duration_ns": 5841099, "rc": 0}
+{"event": "verified", "mono_ns": 3012903342464556, "wall_ns": 1793951187595493916, "iteration": -1, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012903368986424, "wall_ns": 1793951187622016312, "transfer_id": 2, "bytes": 268435456, "iteration": 0, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012903374849372, "wall_ns": 1793951187627878174, "mode": "batch", "transfer_id": 2, "duration_ns": 5848529, "rc": 0}
+{"event": "verified", "mono_ns": 3012903524176492, "wall_ns": 1793951187777206083, "iteration": 0, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012903551086532, "wall_ns": 1793951187804116231, "transfer_id": 3, "bytes": 268435456, "iteration": 1, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012903557105514, "wall_ns": 1793951187810134516, "mode": "batch", "transfer_id": 3, "duration_ns": 6003903, "rc": 0}
+{"event": "verified", "mono_ns": 3012903706800922, "wall_ns": 1793951187959832044, "iteration": 1, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012903732542071, "wall_ns": 1793951187985571074, "transfer_id": 4, "bytes": 268435456, "iteration": 2, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012903738398696, "wall_ns": 1793951187991427431, "mode": "batch", "transfer_id": 4, "duration_ns": 5844560, "rc": 0}
+{"event": "verified", "mono_ns": 3012903886434457, "wall_ns": 1793951188139463703, "iteration": 2, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012903912202661, "wall_ns": 1793951188165231595, "transfer_id": 5, "bytes": 268435456, "iteration": 3, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012903918049021, "wall_ns": 1793951188171077746, "mode": "batch", "transfer_id": 5, "duration_ns": 5835414, "rc": 0}
+{"event": "verified", "mono_ns": 3012904067566602, "wall_ns": 1793951188320596172, "iteration": 3, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012904093319165, "wall_ns": 1793951188346348143, "transfer_id": 6, "bytes": 268435456, "iteration": 4, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012904099150579, "wall_ns": 1793951188352179306, "mode": "batch", "transfer_id": 6, "duration_ns": 5821231, "rc": 0}
+{"event": "verified", "mono_ns": 3012904247706138, "wall_ns": 1793951188500735666, "iteration": 4, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012904273328983, "wall_ns": 1793951188526358133, "transfer_id": 7, "bytes": 268435456, "iteration": 5, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012904279179248, "wall_ns": 1793951188532208011, "mode": "batch", "transfer_id": 7, "duration_ns": 5840082, "rc": 0}
+{"event": "verified", "mono_ns": 3012904426722453, "wall_ns": 1793951188679751532, "iteration": 5, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012904452142134, "wall_ns": 1793951188705171076, "transfer_id": 8, "bytes": 268435456, "iteration": 6, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012904458064447, "wall_ns": 1793951188711093246, "mode": "batch", "transfer_id": 8, "duration_ns": 5906975, "rc": 0}
+{"event": "verified", "mono_ns": 3012904605396432, "wall_ns": 1793951188858426546, "iteration": 6, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012904630847434, "wall_ns": 1793951188883876571, "transfer_id": 9, "bytes": 268435456, "iteration": 7, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012904636679190, "wall_ns": 1793951188889707967, "mode": "batch", "transfer_id": 9, "duration_ns": 5821379, "rc": 0}
+{"event": "verified", "mono_ns": 3012904784020808, "wall_ns": 1793951189037050067, "iteration": 7, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012904809437511, "wall_ns": 1793951189062466481, "transfer_id": 10, "bytes": 268435456, "iteration": 8, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012904815349439, "wall_ns": 1793951189068378164, "mode": "batch", "transfer_id": 10, "duration_ns": 5901435, "rc": 0}
+{"event": "verified", "mono_ns": 3012904962535714, "wall_ns": 1793951189215565219, "iteration": 8, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012904988013329, "wall_ns": 1793951189241042452, "transfer_id": 11, "bytes": 268435456, "iteration": 9, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012904993823845, "wall_ns": 1793951189246852565, "mode": "batch", "transfer_id": 11, "duration_ns": 5800109, "rc": 0}
+{"event": "verified", "mono_ns": 3012905141167243, "wall_ns": 1793951189394196284, "iteration": 9, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012905166687813, "wall_ns": 1793951189419716978, "transfer_id": 12, "bytes": 268435456, "iteration": 10, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012905172595577, "wall_ns": 1793951189425624301, "mode": "batch", "transfer_id": 12, "duration_ns": 5898886, "rc": 0}
+{"event": "verified", "mono_ns": 3012905318953198, "wall_ns": 1793951189571982510, "iteration": 10, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012905344391647, "wall_ns": 1793951189597420683, "transfer_id": 13, "bytes": 268435456, "iteration": 11, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012905350202386, "wall_ns": 1793951189603231113, "mode": "batch", "transfer_id": 13, "duration_ns": 5801771, "rc": 0}
+{"event": "verified", "mono_ns": 3012905500369411, "wall_ns": 1793951189753399385, "iteration": 11, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012905526097467, "wall_ns": 1793951189779126466, "transfer_id": 14, "bytes": 268435456, "iteration": 12, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012905532074691, "wall_ns": 1793951189785103478, "mode": "batch", "transfer_id": 14, "duration_ns": 5958397, "rc": 0}
+{"event": "verified", "mono_ns": 3012905678365107, "wall_ns": 1793951189931394414, "iteration": 12, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012905703796256, "wall_ns": 1793951189956825241, "transfer_id": 15, "bytes": 268435456, "iteration": 13, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012905709614417, "wall_ns": 1793951189962643141, "mode": "batch", "transfer_id": 15, "duration_ns": 5808482, "rc": 0}
+{"event": "verified", "mono_ns": 3012905856452076, "wall_ns": 1793951190109481082, "iteration": 13, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012905881984793, "wall_ns": 1793951190135013744, "transfer_id": 16, "bytes": 268435456, "iteration": 14, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012905887819044, "wall_ns": 1793951190140847771, "mode": "batch", "transfer_id": 16, "duration_ns": 5826275, "rc": 0}
+{"event": "verified", "mono_ns": 3012906034397309, "wall_ns": 1793951190287426577, "iteration": 14, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012906059913160, "wall_ns": 1793951190312942215, "transfer_id": 17, "bytes": 268435456, "iteration": 15, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012906065755200, "wall_ns": 1793951190318783928, "mode": "batch", "transfer_id": 17, "duration_ns": 5833528, "rc": 0}
+{"event": "verified", "mono_ns": 3012906212824709, "wall_ns": 1793951190465853722, "iteration": 15, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012906238480979, "wall_ns": 1793951190491509996, "transfer_id": 18, "bytes": 268435456, "iteration": 16, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012906244325425, "wall_ns": 1793951190497354171, "mode": "batch", "transfer_id": 18, "duration_ns": 5834442, "rc": 0}
+{"event": "verified", "mono_ns": 3012906391686639, "wall_ns": 1793951190644715616, "iteration": 16, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012906417219707, "wall_ns": 1793951190670249069, "transfer_id": 19, "bytes": 268435456, "iteration": 17, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012906423048517, "wall_ns": 1793951190676077244, "mode": "batch", "transfer_id": 19, "duration_ns": 5818165, "rc": 0}
+{"event": "verified", "mono_ns": 3012906578856791, "wall_ns": 1793951190831887218, "iteration": 17, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012906604517937, "wall_ns": 1793951190857547131, "transfer_id": 20, "bytes": 268435456, "iteration": 18, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012906610360813, "wall_ns": 1793951190863389578, "mode": "batch", "transfer_id": 20, "duration_ns": 5829679, "rc": 0}
+{"event": "verified", "mono_ns": 3012906760282505, "wall_ns": 1793951191013312926, "iteration": 18, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012906785880346, "wall_ns": 1793951191038909505, "transfer_id": 21, "bytes": 268435456, "iteration": 19, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012906791870670, "wall_ns": 1793951191044899442, "mode": "batch", "transfer_id": 21, "duration_ns": 5975022, "rc": 0}
+{"event": "verified", "mono_ns": 3012906940550922, "wall_ns": 1793951191193580261, "iteration": 19, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012906966052210, "wall_ns": 1793951191219081251, "transfer_id": 22, "bytes": 268435456, "iteration": 20, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012906971931153, "wall_ns": 1793951191224959899, "mode": "batch", "transfer_id": 22, "duration_ns": 5869957, "rc": 0}
+{"event": "verified", "mono_ns": 3012907122493439, "wall_ns": 1793951191375523473, "iteration": 20, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012907148139535, "wall_ns": 1793951191401168477, "transfer_id": 23, "bytes": 268435456, "iteration": 21, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012907153956525, "wall_ns": 1793951191406985364, "mode": "batch", "transfer_id": 23, "duration_ns": 5805653, "rc": 0}
+{"event": "verified", "mono_ns": 3012907301768006, "wall_ns": 1793951191554797796, "iteration": 21, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012907326941929, "wall_ns": 1793951191579971428, "transfer_id": 24, "bytes": 268435456, "iteration": 22, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012907332796001, "wall_ns": 1793951191585824738, "mode": "batch", "transfer_id": 24, "duration_ns": 5844121, "rc": 0}
+{"event": "verified", "mono_ns": 3012907481276049, "wall_ns": 1793951191734305387, "iteration": 22, "mode": "batch", "bytes": 268435456}
+{"event": "call_start", "mono_ns": 3012907507268533, "wall_ns": 1793951191760297472, "transfer_id": 25, "bytes": 268435456, "iteration": 23, "mode": "batch", "requests": 64}
+{"event": "call_end", "mono_ns": 3012907513137127, "wall_ns": 1793951191766166167, "mode": "batch", "transfer_id": 25, "duration_ns": 5855329, "rc": 0}
+{"event": "verified", "mono_ns": 3012907660186466, "wall_ns": 1793951191913215500, "iteration": 23, "mode": "batch", "bytes": 268435456}

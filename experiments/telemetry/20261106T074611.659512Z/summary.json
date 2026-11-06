@@ -1,0 +1,302 @@
+{
+  "scope": "cross-host",
+  "samplers": {
+    "local": {
+      "samples": 249,
+      "median_read_ms": 19.87453,
+      "max_read_ms": 25.951389,
+      "median_interval_ms": 99.9991965,
+      "interval_overruns": 0,
+      "counter_resets": [],
+      "read_errors": 0,
+      "nonzero_counter_deltas": {
+        "mlx5_bond_0/1/counters/port_rcv_data": 5334816903,
+        "mlx5_bond_0/1/counters/port_rcv_packets": 5111963,
+        "mlx5_bond_0/1/counters/port_xmit_data": 7519046,
+        "mlx5_bond_0/1/counters/port_xmit_packets": 319637,
+        "mlx5_bond_1/1/counters/port_rcv_data": 6485445,
+        "mlx5_bond_1/1/counters/port_rcv_packets": 168037,
+        "mlx5_bond_1/1/counters/port_xmit_data": 2025953473,
+        "mlx5_bond_1/1/counters/port_xmit_packets": 2013621,
+        "mlx5_bond_2/1/counters/port_rcv_data": 6489091,
+        "mlx5_bond_2/1/counters/port_rcv_packets": 167839,
+        "mlx5_bond_2/1/counters/port_xmit_data": 2039945759,
+        "mlx5_bond_2/1/counters/port_xmit_packets": 2027059,
+        "mlx5_bond_3/1/counters/port_rcv_data": 2774,
+        "mlx5_bond_3/1/counters/port_rcv_packets": 51,
+        "mlx5_bond_3/1/counters/port_xmit_data": 2179,
+        "mlx5_bond_3/1/counters/port_xmit_packets": 45,
+        "mlx5_bond_3/1/counters/unicast_xmit_packets": 45,
+        "mlx5_bond_0/1/hw_counters/resp_cqe_error": 768,
+        "mlx5_bond_2/1/counters/unicast_rcv_packets": 161806,
+        "mlx5_bond_3/1/hw_counters/rx_write_requests": 3,
+        "mlx5_bond_0/1/hw_counters/resp_cqe_flush_error": 765,
+        "mlx5_bond_2/1/counters/unicast_xmit_packets": 1962960,
+        "mlx5_bond_1/1/counters/unicast_rcv_packets": 162504,
+        "mlx5_bond_1/1/counters/unicast_xmit_packets": 1950879,
+        "mlx5_bond_0/1/counters/unicast_rcv_packets": 5111955,
+        "mlx5_bond_1/1/hw_counters/rx_write_requests": 23,
+        "mlx5_bond_0/1/counters/unicast_xmit_packets": 319631,
+        "mlx5_bond_0/1/hw_counters/rx_write_requests": 14,
+        "mlx5_bond_2/1/hw_counters/rp_cnp_handled": 76,
+        "mlx5_bond_3/1/counters/unicast_rcv_packets": 49
+      },
+      "inventory": {
+        "mlx5_bond_0": {
+          "device_path": "/sys/devices/pci0000:15/0000:15:02.0/0000:16:00.0/0000:17:00.0/0000:18:00.0",
+          "numa_node": "0",
+          "netdevs": {
+            "reth0": {
+              "iflink": "4",
+              "phys_port_name": "p0",
+              "slaves": null
+            }
+          }
+        },
+        "mlx5_bond_1": {
+          "device_path": "/sys/devices/pci0000:2c/0000:2c:02.0/0000:2d:00.0/0000:2e:00.0/0000:2f:00.0",
+          "numa_node": "0",
+          "netdevs": {
+            "reth2": {
+              "iflink": "6",
+              "phys_port_name": "p0",
+              "slaves": null
+            }
+          }
+        },
+        "mlx5_bond_2": {
+          "device_path": "/sys/devices/pci0000:62/0000:62:02.0/0000:63:00.0/0000:64:00.0/0000:65:00.0",
+          "numa_node": "0",
+          "netdevs": {
+            "reth4": {
+              "iflink": "8",
+              "phys_port_name": "p0",
+              "slaves": null
+            }
+          }
+        },
+        "mlx5_bond_3": {
+          "device_path": "/sys/devices/pci0000:6f/0000:6f:02.0/0000:70:00.0/0000:71:00.0/0000:72:00.0",
+          "numa_node": "0",
+          "netdevs": {
+            "reth6": {
+              "iflink": "10",
+              "phys_port_name": "p0",
+              "slaves": null
+            }
+          }
+        },
+        "mlx5_bond_4": {
+          "device_path": "/sys/devices/pci0000:95/0000:95:02.0/0000:96:00.0/0000:97:00.0/0000:98:00.0",
+          "numa_node": "1",
+          "netdevs": {
+            "reth8": {
+              "iflink": "12",
+              "phys_port_name": "p0",
+              "slaves": null
+            }
+          }
+        },
+        "mlx5_bond_5": {
+          "device_path": "/sys/devices/pci0000:b5/0000:b5:02.0/0000:b6:00.0/0000:b7:00.0/0000:b8:00.0",
+          "numa_node": "1",
+          "netdevs": {
+            "reth10": {
+              "iflink": "14",
+              "phys_port_name": "p0",
+              "slaves": null
+            }
+          }
+        },
+        "mlx5_bond_6": {
+          "device_path": "/sys/devices/pci0000:d5/0000:d5:02.0/0000:d6:00.0/0000:d7:00.0/0000:d8:00.0",
+          "numa_node": "1",
+          "netdevs": {
+            "reth12": {
+              "iflink": "16",
+              "phys_port_name": "p0",
+              "slaves": null
+            }
+          }
+        },
+        "mlx5_bond_7": {
+          "device_path": "/sys/devices/pci0000:e5/0000:e5:02.0/0000:e6:00.0/0000:e7:00.0/0000:e8:00.0",
+          "numa_node": "1",
+          "netdevs": {
+            "reth14": {
+              "iflink": "18",
+              "phys_port_name": "p0",
+              "slaves": null
+            }
+          }
+        }
+      }
+    },
+    "remote": {
+      "samples": 244,
+      "median_read_ms": 18.453293,
+      "max_read_ms": 26.317964,
+      "median_interval_ms": 99.999564,
+      "interval_overruns": 0,
+      "counter_resets": [],
+      "read_errors": 0,
+      "nonzero_counter_deltas": {
+        "mlx5_bond_0/1/counters/port_rcv_data": 13826525,
+        "mlx5_bond_0/1/counters/port_rcv_packets": 482205,
+        "mlx5_bond_0/1/counters/port_xmit_data": 7331444287,
+        "mlx5_bond_0/1/counters/port_xmit_packets": 7095911,
+        "mlx5_bond_1/1/counters/port_rcv_data": 6307235,
+        "mlx5_bond_1/1/counters/port_rcv_packets": 162370,
+        "mlx5_bond_1/1/counters/port_xmit_data": 1992767428,
+        "mlx5_bond_1/1/counters/port_xmit_packets": 1980381,
+        "mlx5_bond_2/1/counters/port_rcv_data": 8601,
+        "mlx5_bond_2/1/counters/port_rcv_packets": 216,
+        "mlx5_bond_2/1/counters/port_xmit_data": 14230,
+        "mlx5_bond_2/1/counters/port_xmit_packets": 216,
+        "mlx5_bond_3/1/counters/port_rcv_data": 3714,
+        "mlx5_bond_3/1/counters/port_rcv_packets": 83,
+        "mlx5_bond_3/1/counters/port_xmit_data": 3214,
+        "mlx5_bond_3/1/counters/port_xmit_packets": 83,
+        "mlx5_bond_3/1/counters/unicast_xmit_packets": 83,
+        "mlx5_bond_2/1/counters/unicast_rcv_packets": 210,
+        "mlx5_bond_3/1/hw_counters/rx_write_requests": 17,
+        "mlx5_bond_2/1/counters/unicast_xmit_packets": 208,
+        "mlx5_bond_1/1/counters/unicast_rcv_packets": 160508,
+        "mlx5_bond_2/1/hw_counters/rx_write_requests": 12,
+        "mlx5_bond_1/1/counters/unicast_xmit_packets": 1875239,
+        "mlx5_bond_0/1/counters/unicast_rcv_packets": 472798,
+        "mlx5_bond_1/1/hw_counters/rx_write_requests": 16,
+        "mlx5_bond_0/1/counters/unicast_xmit_packets": 6988151,
+        "mlx5_bond_0/1/hw_counters/rx_read_requests": 319488,
+        "mlx5_bond_0/1/hw_counters/rx_write_requests": 2,
+        "mlx5_bond_3/1/counters/unicast_rcv_packets": 74
+      },
+      "inventory": {
+        "mlx5_bond_0": {
+          "device_path": "/sys/devices/pci0000:15/0000:15:02.0/0000:16:00.0/0000:17:00.0/0000:18:00.0",
+          "numa_node": "0",
+          "netdevs": {
+            "reth0": {
+              "iflink": "4",
+              "phys_port_name": "p0",
+              "slaves": null
+            }
+          }
+        },
+        "mlx5_bond_1": {
+          "device_path": "/sys/devices/pci0000:2c/0000:2c:02.0/0000:2d:00.0/0000:2e:00.0/0000:2f:00.0",
+          "numa_node": "0",
+          "netdevs": {
+            "reth2": {
+              "iflink": "6",
+              "phys_port_name": "p0",
+              "slaves": null
+            }
+          }
+        },
+        "mlx5_bond_2": {
+          "device_path": "/sys/devices/pci0000:62/0000:62:02.0/0000:63:00.0/0000:64:00.0/0000:65:00.0",
+          "numa_node": "0",
+          "netdevs": {
+            "reth4": {
+              "iflink": "8",
+              "phys_port_name": "p0",
+              "slaves": null
+            }
+          }
+        },
+        "mlx5_bond_3": {
+          "device_path": "/sys/devices/pci0000:6f/0000:6f:02.0/0000:70:00.0/0000:71:00.0/0000:72:00.0",
+          "numa_node": "0",
+          "netdevs": {
+            "reth6": {
+              "iflink": "10",
+              "phys_port_name": "p0",
+              "slaves": null
+            }
+          }
+        },
+        "mlx5_bond_4": {
+          "device_path": "/sys/devices/pci0000:95/0000:95:02.0/0000:96:00.0/0000:97:00.0/0000:98:00.0",
+          "numa_node": "1",
+          "netdevs": {
+            "reth8": {
+              "iflink": "12",
+              "phys_port_name": "p0",
+              "slaves": null
+            }
+          }
+        },
+        "mlx5_bond_5": {
+          "device_path": "/sys/devices/pci0000:b5/0000:b5:02.0/0000:b6:00.0/0000:b7:00.0/0000:b8:00.0",
+          "numa_node": "1",
+          "netdevs": {
+            "reth10": {
+              "iflink": "14",
+              "phys_port_name": "p0",
+              "slaves": null
+            }
+          }
+        },
+        "mlx5_bond_6": {
+          "device_path": "/sys/devices/pci0000:d5/0000:d5:02.0/0000:d6:00.0/0000:d7:00.0/0000:d8:00.0",
+          "numa_node": "1",
+          "netdevs": {
+            "reth12": {
+              "iflink": "16",
+              "phys_port_name": "p0",
+              "slaves": null
+            }
+          }
+        },
+        "mlx5_bond_7": {
+          "device_path": "/sys/devices/pci0000:e5/0000:e5:02.0/0000:e6:00.0/0000:e7:00.0/0000:e8:00.0",
+          "numa_node": "1",
+          "netdevs": {
+            "reth14": {
+              "iflink": "3831",
+              "phys_port_name": "p0",
+              "slaves": null
+            }
+          }
+        }
+      }
+    }
+  },
+  "calls": {
+    "single": {
+      "measured_calls": 24,
+      "median_API_ms": 5.822803,
+      "max_API_ms": 6.308167,
+      "verified_iterations": 26
+    },
+    "batch": {
+      "measured_calls": 24,
+      "median_API_ms": 5.8377479999999995,
+      "max_API_ms": 6.003903,
+      "verified_iterations": 26
+    },
+    "parallel": {
+      "measured_calls": 96,
+      "median_API_ms": 4.4613975,
+      "max_API_ms": 5.999354,
+      "verified_iterations": 26
+    }
+  },
+  "limitations": [
+    "Counters are host-wide; background traffic is not subtracted.",
+    "100 ms averages miss short bursts. No NIC hardware queue occupancy is measured.",
+    "In-flight tracks Python-to-TE API calls, including software work, not posted RDMA WRs.",
+    "Batch is one API call containing many requests. Warmup calls are included.",
+    "Workload is closed-loop with clear/verify gaps, not a steady saturation benchmark.",
+    "No per-transfer automatic NIC choice trace or internal retry event instrumentation in this capture.",
+    "Device/netdev inventory is evidence only; physical bond members and link utilization denominator remain unverified."
+  ],
+  "remote_alignment": {
+    "offset_estimate_ms": -0.27496299999999996,
+    "uncertainty_bound_ms": 0.063761,
+    "method": "SSH wall-time bracket; not measured NTP/PTP synchronization; assumes stable clocks"
+  },
+  "peak_application_inflight_calls": 4,
+  "peak_application_inflight_MiB": 256.0
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "label": "baseline-1",
+    "url": "http://11.163.39.114:18920",
+    "start_wall_ns": 1793952387365134214,
+    "end_wall_ns": 1793952387611614706,
+    "payload": {
+      "model": "qwen-kv-lab",
+      "prompt": "The server stores a key and a value for each attention layer. \nSummarize this in one sentence:",
+      "max_tokens": 32,
+      "temperature": 0,
+      "seed": 42,
+      "stream": false
+    },
+    "response": {
+      "id": "cmpl-be30c60bb6cf3a7a",
+      "object": "text_completion",
+      "created": 1793952387,
+      "model": "qwen-kv-lab",
+      "choices": [
+        {
+          "index": 0,
+          "text": " The server maintains a set of keys and values associated with each attention layer, allowing it to store and retrieve information efficiently.",
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": 151643,
+          "token_ids": null,
+          "prompt_logprobs": null,
+          "prompt_token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.31.0-6b22d7b2",
+      "usage": {
+        "prompt_tokens": 22,
+        "total_tokens": 47,
+        "completion_tokens": 25,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": null
+      },
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "label": "pd-1",
+    "url": "http://127.0.0.1:18900",
+    "start_wall_ns": 1793952387611706159,
+    "end_wall_ns": 1793952387858532417,
+    "payload": {
+      "model": "qwen-kv-lab",
+      "prompt": "The server stores a key and a value for each attention layer. \nSummarize this in one sentence:",
+      "max_tokens": 32,
+      "temperature": 0,
+      "seed": 42,
+      "stream": false
+    },
+    "response": {
+      "id": "cmpl-4ffecde5-84a4-4e3f-ba24-4744d675d644",
+      "object": "text_completion",
+      "created": 1793952387,
+      "model": "qwen-kv-lab",
+      "choices": [
+        {
+          "index": 0,
+          "text": " The server maintains a key-value pair for each attention layer, storing the key and value for each attention mechanism.",
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": 151643,
+          "token_ids": null,
+          "prompt_logprobs": null,
+          "prompt_token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.31.0-6b22d7b2",
+      "usage": {
+        "prompt_tokens": 22,
+        "total_tokens": 45,
+        "completion_tokens": 23,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": null
+      },
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  }
+]

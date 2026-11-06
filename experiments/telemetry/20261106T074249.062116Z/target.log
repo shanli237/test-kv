@@ -1,0 +1,18 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W1106 07:42:49.700439  2282 transfer_engine_py.cpp:301] Using 64KB-aligned malloc/free for protocol: rdma
+I1106 07:42:49.700521  2282 transfer_engine_impl.cpp:1184] Metrics reporting is disabled (set MC_TE_METRIC=1 to enable)
+I1106 07:42:49.700563  2282 transfer_engine_impl.cpp:147] Transfer Engine parseHostNameWithPort. server_name: 11.163.39.110 port: 0
+I1106 07:42:49.700592  2282 transfer_engine_impl.cpp:214] Transfer Engine RPC using P2P handshake, listening on 11.163.39.110:16488
+I1106 07:42:49.700666  2282 transfer_engine_impl.cpp:318] Auto-discovering topology...
+I1106 07:42:49.700671  2282 topology.cpp:175] IB device whitelist: mlx5_bond_0
+I1106 07:42:49.706604  2282 topology.cpp:134] Device mlx5_bond_0 port 1 is available
+I1106 07:42:56.782853  2282 transfer_engine_impl.cpp:345] Topology discovery complete. Found 1 HCAs.
+I1106 07:42:56.782975  2282 rdma_transport.cpp:267] [RDMA] Relaxed ordering is supported on this host; IBV_ACCESS_RELAXED_ORDERING will be requested for registered memory regions.
+I1106 07:42:56.783003  2282 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_0 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1106 07:42:56.783007  2282 rdma_context.cpp:311] Using SIEVE endpoint store
+I1106 07:42:56.788371  2282 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_0/1 (network state: with network device)
+I1106 07:42:56.790592  2282 rdma_context.cpp:407] RDMA device: mlx5_bond_0, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:7d:80:00:00:00:00:00:00:00:01
+I1106 07:42:56.790647  2282 transfer_metadata.cpp:61] NIC path intern pool size=1
+I1106 07:42:56.790695  2282 transfer_engine_impl.cpp:480] Using RDMA transport (RoCE/iWARP)
+READY
+I1106 07:42:57.480613  2282 transfer_metadata.cpp:829] removeSegmentDesc 11.163.39.110:16488 finish

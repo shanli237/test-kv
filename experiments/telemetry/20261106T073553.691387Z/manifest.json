@@ -1,0 +1,16 @@
+{
+  "run_id": "20261106T073553.691387Z",
+  "scope": "same-host",
+  "config": {
+    "remote": null,
+    "local_host": "11.163.39.114",
+    "remote_host": "11.163.39.110",
+    "repeats": 24,
+    "mib": 256
+  },
+  "start_wall_ns": 1793950553691538098,
+  "clock_probes": [],
+  "status": "passed",
+  "cleanup_errors": [],
+  "end_wall_ns": 1793950579500752192
+}

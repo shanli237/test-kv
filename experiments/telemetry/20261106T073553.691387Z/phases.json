@@ -1,0 +1,42 @@
+[
+  {
+    "phase": "baseline",
+    "mono_ns": 3012270641258015,
+    "wall_ns": 1793950554894287561
+  },
+  {
+    "phase": "single",
+    "mono_ns": 3012272641471998,
+    "wall_ns": 1793950556894502516
+  },
+  {
+    "phase": "single-recovery",
+    "mono_ns": 3012278966888055,
+    "wall_ns": 1793950563219917966
+  },
+  {
+    "phase": "batch",
+    "mono_ns": 3012279967372089,
+    "wall_ns": 1793950564220402588
+  },
+  {
+    "phase": "batch-recovery",
+    "mono_ns": 3012286242140829,
+    "wall_ns": 1793950570495171459
+  },
+  {
+    "phase": "parallel",
+    "mono_ns": 3012287242617734,
+    "wall_ns": 1793950571495648505
+  },
+  {
+    "phase": "parallel-recovery",
+    "mono_ns": 3012293519155721,
+    "wall_ns": 1793950577772186101
+  },
+  {
+    "phase": "end",
+    "mono_ns": 3012294519626681,
+    "wall_ns": 1793950578772657828
+  }
+]

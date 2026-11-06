@@ -1,0 +1,21 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W1106 07:46:12.455567  2524 transfer_engine_py.cpp:301] Using 64KB-aligned malloc/free for protocol: rdma
+I1106 07:46:12.455632  2524 transfer_engine_impl.cpp:1184] Metrics reporting is disabled (set MC_TE_METRIC=1 to enable)
+I1106 07:46:12.455684  2524 transfer_engine_impl.cpp:147] Transfer Engine parseHostNameWithPort. server_name: 11.163.39.110 port: 0
+I1106 07:46:12.455716  2524 transfer_engine_impl.cpp:214] Transfer Engine RPC using P2P handshake, listening on 11.163.39.110:15715
+I1106 07:46:12.455782  2524 transfer_engine_impl.cpp:318] Auto-discovering topology...
+I1106 07:46:12.455787  2524 topology.cpp:175] IB device whitelist: mlx5_bond_0
+I1106 07:46:12.460981  2524 topology.cpp:134] Device mlx5_bond_0 port 1 is available
+I1106 07:46:16.095376  2524 transfer_engine_impl.cpp:345] Topology discovery complete. Found 1 HCAs.
+I1106 07:46:16.095440  2524 rdma_transport.cpp:267] [RDMA] Relaxed ordering is supported on this host; IBV_ACCESS_RELAXED_ORDERING will be requested for registered memory regions.
+I1106 07:46:16.095465  2524 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_0 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1106 07:46:16.095469  2524 rdma_context.cpp:311] Using SIEVE endpoint store
+I1106 07:46:16.100584  2524 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_0/1 (network state: with network device)
+I1106 07:46:16.102571  2524 rdma_context.cpp:407] RDMA device: mlx5_bond_0, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:7d:80:00:00:00:00:00:00:00:01
+I1106 07:46:16.102607  2524 transfer_metadata.cpp:61] NIC path intern pool size=1
+I1106 07:46:16.102666  2524 transfer_engine_impl.cpp:480] Using RDMA transport (RoCE/iWARP)
+READY
+I1106 07:46:20.057554  2526 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1106 07:46:27.258673  2526 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1106 07:46:34.743294  2526 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1106 07:46:41.619009  2524 transfer_metadata.cpp:829] removeSegmentDesc 11.163.39.110:15715 finish

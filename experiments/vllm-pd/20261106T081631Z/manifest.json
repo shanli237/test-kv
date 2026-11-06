@@ -1,0 +1,30 @@
+{
+  "start_wall_ns": 1793952991948740669,
+  "scope": "cross-host GPU KV WRITE",
+  "model": "Qwen2.5-0.5B-Instruct",
+  "out": "/workspace/FuseLink/testvllm/experiments/vllm-pd/20261106T081631Z",
+  "clock_probes": [
+    {
+      "offset_min_ns": -236152,
+      "offset_max_ns": 22634
+    },
+    {
+      "offset_min_ns": -218327,
+      "offset_max_ns": -93733
+    },
+    {
+      "offset_min_ns": -232806,
+      "offset_max_ns": -96339
+    },
+    {
+      "offset_min_ns": -217621,
+      "offset_max_ns": -89778
+    },
+    {
+      "offset_min_ns": -217789,
+      "offset_max_ns": -96052
+    }
+  ],
+  "status": "passed",
+  "end_wall_ns": 1793953037419518102
+}

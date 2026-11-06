@@ -1,0 +1,52 @@
+{
+  "run_id": "20261106T074611.659512Z",
+  "scope": "cross-host",
+  "config": {
+    "remote": "11.163.39.110",
+    "local_host": "11.163.39.114",
+    "remote_host": "11.163.39.110",
+    "repeats": 24,
+    "mib": 256
+  },
+  "start_wall_ns": 1793951171659677939,
+  "clock_probes": [
+    {
+      "local_before_ns": 1793951172121899865,
+      "remote_ns": 1793951172122585318,
+      "local_after_ns": 1793951172123006404,
+      "offset_min_ns": -421086,
+      "offset_max_ns": 685453
+    },
+    {
+      "local_before_ns": 1793951172123018577,
+      "remote_ns": 1793951172122939411,
+      "local_after_ns": 1793951172123312007,
+      "offset_min_ns": -372596,
+      "offset_max_ns": -79166
+    },
+    {
+      "local_before_ns": 1793951172123319035,
+      "remote_ns": 1793951172123113793,
+      "local_after_ns": 1793951172123475670,
+      "offset_min_ns": -361877,
+      "offset_max_ns": -205242
+    },
+    {
+      "local_before_ns": 1793951172123478330,
+      "remote_ns": 1793951172123264863,
+      "local_after_ns": 1793951172123606256,
+      "offset_min_ns": -341393,
+      "offset_max_ns": -213467
+    },
+    {
+      "local_before_ns": 1793951172123607874,
+      "remote_ns": 1793951172123396672,
+      "local_after_ns": 1793951172123735396,
+      "offset_min_ns": -338724,
+      "offset_max_ns": -211202
+    }
+  ],
+  "status": "passed",
+  "cleanup_errors": [],
+  "end_wall_ns": 1793951202843725725
+}

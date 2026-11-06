@@ -1,0 +1,75 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W1105 08:48:13.323640  2999 transfer_engine_py.cpp:301] Using 64KB-aligned malloc/free for protocol: rdma
+I1105 08:48:13.323721  2999 transfer_engine_impl.cpp:1184] Metrics reporting is disabled (set MC_TE_METRIC=1 to enable)
+I1105 08:48:13.323767  2999 transfer_engine_impl.cpp:147] Transfer Engine parseHostNameWithPort. server_name: 11.163.39.114 port: 0
+I1105 08:48:13.323798  2999 transfer_engine_impl.cpp:214] Transfer Engine RPC using P2P handshake, listening on 11.163.39.114:15897
+I1105 08:48:13.323880  2999 transfer_engine_impl.cpp:318] Auto-discovering topology...
+I1105 08:48:13.323884  2999 topology.cpp:175] IB device whitelist: mlx5_bond_0
+I1105 08:48:13.329250  2999 topology.cpp:134] Device mlx5_bond_0 port 1 is available
+I1105 08:48:13.960207  2999 transfer_engine_impl.cpp:345] Topology discovery complete. Found 1 HCAs.
+I1105 08:48:13.960244  2999 rdma_transport.cpp:267] [RDMA] Relaxed ordering is supported on this host; IBV_ACCESS_RELAXED_ORDERING will be requested for registered memory regions.
+I1105 08:48:13.960268  2999 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_0 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1105 08:48:13.960271  2999 rdma_context.cpp:311] Using SIEVE endpoint store
+I1105 08:48:13.965366  2999 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_0/1 (network state: with network device)
+I1105 08:48:13.967366  2999 rdma_context.cpp:407] RDMA device: mlx5_bond_0, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:0c:c0:00:00:00:00:00:00:00:01
+I1105 08:48:13.967403  2999 transfer_metadata.cpp:61] NIC path intern pool size=1
+I1105 08:48:13.967442  2999 transfer_engine_impl.cpp:480] Using RDMA transport (RoCE/iWARP)
+BEGIN iteration=-8 mode=single
+I1105 08:48:14.138986  2999 transfer_engine_py.cpp:976] transferSync, cache not found, openSegment with target 11.163.39.110:16566
+PASS iteration=-8 bytes=536870912 seconds=0.042845
+BEGIN iteration=-7 mode=single
+PASS iteration=-7 bytes=536870912 seconds=0.011620
+BEGIN iteration=-6 mode=single
+PASS iteration=-6 bytes=536870912 seconds=0.011447
+BEGIN iteration=-5 mode=single
+PASS iteration=-5 bytes=536870912 seconds=0.011547
+BEGIN iteration=-4 mode=single
+PASS iteration=-4 bytes=536870912 seconds=0.012024
+BEGIN iteration=-3 mode=single
+PASS iteration=-3 bytes=536870912 seconds=0.011565
+BEGIN iteration=-2 mode=single
+PASS iteration=-2 bytes=536870912 seconds=0.011659
+BEGIN iteration=-1 mode=single
+PASS iteration=-1 bytes=536870912 seconds=0.012174
+BEGIN iteration=0 mode=single
+PASS iteration=0 bytes=536870912 seconds=0.011374
+BEGIN iteration=1 mode=single
+PASS iteration=1 bytes=536870912 seconds=0.011512
+BEGIN iteration=2 mode=single
+PASS iteration=2 bytes=536870912 seconds=0.011637
+BEGIN iteration=3 mode=single
+PASS iteration=3 bytes=536870912 seconds=0.011450
+BEGIN iteration=4 mode=single
+PASS iteration=4 bytes=536870912 seconds=0.011409
+BEGIN iteration=5 mode=single
+PASS iteration=5 bytes=536870912 seconds=0.011413
+BEGIN iteration=6 mode=single
+PASS iteration=6 bytes=536870912 seconds=0.011487
+BEGIN iteration=7 mode=single
+PASS iteration=7 bytes=536870912 seconds=0.011405
+BEGIN iteration=8 mode=single
+PASS iteration=8 bytes=536870912 seconds=0.011485
+BEGIN iteration=9 mode=single
+PASS iteration=9 bytes=536870912 seconds=0.011453
+BEGIN iteration=10 mode=single
+W1105 08:48:20.861162  2999 multi_transport.cpp:151] Batch 671676016 is still busy; cleanup has been deferred
+PASS iteration=10 bytes=536870912 seconds=0.011364
+BEGIN iteration=11 mode=single
+PASS iteration=11 bytes=536870912 seconds=0.011580
+BEGIN iteration=12 mode=single
+PASS iteration=12 bytes=536870912 seconds=0.012292
+BEGIN iteration=13 mode=single
+PASS iteration=13 bytes=536870912 seconds=0.011516
+BEGIN iteration=14 mode=single
+PASS iteration=14 bytes=536870912 seconds=0.011605
+BEGIN iteration=15 mode=single
+PASS iteration=15 bytes=536870912 seconds=0.012069
+BEGIN iteration=16 mode=single
+PASS iteration=16 bytes=536870912 seconds=0.012275
+BEGIN iteration=17 mode=single
+PASS iteration=17 bytes=536870912 seconds=0.011869
+BEGIN iteration=18 mode=single
+PASS iteration=18 bytes=536870912 seconds=0.011505
+BEGIN iteration=19 mode=single
+PASS iteration=19 bytes=536870912 seconds=0.012167
+I1105 08:48:24.560258  2999 transfer_metadata.cpp:829] removeSegmentDesc 11.163.39.114:15897 finish

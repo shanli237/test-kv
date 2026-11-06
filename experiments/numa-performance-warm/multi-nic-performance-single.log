@@ -1,0 +1,113 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W1105 08:49:06.806203  3199 transfer_engine_py.cpp:301] Using 64KB-aligned malloc/free for protocol: rdma
+I1105 08:49:06.806269  3199 transfer_engine_impl.cpp:1184] Metrics reporting is disabled (set MC_TE_METRIC=1 to enable)
+I1105 08:49:06.806309  3199 transfer_engine_impl.cpp:147] Transfer Engine parseHostNameWithPort. server_name: 11.163.39.114 port: 0
+I1105 08:49:06.806335  3199 transfer_engine_impl.cpp:214] Transfer Engine RPC using P2P handshake, listening on 11.163.39.114:16605
+I1105 08:49:06.806409  3199 transfer_engine_impl.cpp:318] Auto-discovering topology...
+I1105 08:49:06.806413  3199 topology.cpp:175] IB device whitelist: mlx5_bond_0,mlx5_bond_1,mlx5_bond_2,mlx5_bond_3,mlx5_bond_4,mlx5_bond_5,mlx5_bond_6,mlx5_bond_7
+I1105 08:49:06.806732  3199 topology.cpp:236] Skipping device: mlx5_2
+I1105 08:49:06.806734  3199 topology.cpp:236] Skipping device: mlx5_3
+I1105 08:49:06.806735  3199 topology.cpp:236] Skipping device: mlx5_4
+I1105 08:49:06.811630  3199 topology.cpp:134] Device mlx5_bond_0 port 1 is available
+I1105 08:49:06.816784  3199 topology.cpp:134] Device mlx5_bond_1 port 1 is available
+I1105 08:49:06.821612  3199 topology.cpp:134] Device mlx5_bond_2 port 1 is available
+I1105 08:49:06.826478  3199 topology.cpp:134] Device mlx5_bond_3 port 1 is available
+I1105 08:49:06.831522  3199 topology.cpp:134] Device mlx5_bond_4 port 1 is available
+I1105 08:49:06.836463  3199 topology.cpp:134] Device mlx5_bond_5 port 1 is available
+I1105 08:49:06.841351  3199 topology.cpp:134] Device mlx5_bond_6 port 1 is available
+I1105 08:49:06.846258  3199 topology.cpp:134] Device mlx5_bond_7 port 1 is available
+I1105 08:49:06.846635  3199 topology.cpp:236] Skipping device: mlx5_0
+I1105 08:49:07.497159  3199 transfer_engine_impl.cpp:345] Topology discovery complete. Found 8 HCAs.
+I1105 08:49:07.497203  3199 rdma_transport.cpp:267] [RDMA] Relaxed ordering is supported on this host; IBV_ACCESS_RELAXED_ORDERING will be requested for registered memory regions.
+I1105 08:49:07.497226  3199 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_0 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1105 08:49:07.497231  3199 rdma_context.cpp:311] Using SIEVE endpoint store
+I1105 08:49:07.502241  3199 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_0/1 (network state: with network device)
+I1105 08:49:07.504220  3199 rdma_context.cpp:407] RDMA device: mlx5_bond_0, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:0c:c0:00:00:00:00:00:00:00:01
+I1105 08:49:07.504235  3199 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_1 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1105 08:49:07.504237  3199 rdma_context.cpp:311] Using SIEVE endpoint store
+I1105 08:49:07.509083  3199 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_1/1 (network state: with network device)
+I1105 08:49:07.511144  3199 rdma_context.cpp:407] RDMA device: mlx5_bond_1, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:0c:c1:00:00:00:00:00:00:00:01
+I1105 08:49:07.511158  3199 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_2 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1105 08:49:07.511160  3199 rdma_context.cpp:311] Using SIEVE endpoint store
+I1105 08:49:07.515982  3199 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_2/1 (network state: with network device)
+I1105 08:49:07.518026  3199 rdma_context.cpp:407] RDMA device: mlx5_bond_2, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:0c:c2:00:00:00:00:00:00:00:01
+I1105 08:49:07.518043  3199 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_3 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1105 08:49:07.518045  3199 rdma_context.cpp:311] Using SIEVE endpoint store
+I1105 08:49:07.545162  3199 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_3/1 (network state: with network device)
+I1105 08:49:07.547303  3199 rdma_context.cpp:407] RDMA device: mlx5_bond_3, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:0c:c3:00:00:00:00:00:00:00:01
+I1105 08:49:07.547317  3199 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_4 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1105 08:49:07.547324  3199 rdma_context.cpp:311] Using SIEVE endpoint store
+I1105 08:49:07.552244  3199 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_4/1 (network state: with network device)
+I1105 08:49:07.554309  3199 rdma_context.cpp:407] RDMA device: mlx5_bond_4, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:0c:c4:00:00:00:00:00:00:00:01
+I1105 08:49:07.554323  3199 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_5 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1105 08:49:07.554327  3199 rdma_context.cpp:311] Using SIEVE endpoint store
+I1105 08:49:07.559257  3199 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_5/1 (network state: with network device)
+I1105 08:49:07.561358  3199 rdma_context.cpp:407] RDMA device: mlx5_bond_5, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:0c:c5:00:00:00:00:00:00:00:01
+I1105 08:49:07.561371  3199 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_6 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1105 08:49:07.561374  3199 rdma_context.cpp:311] Using SIEVE endpoint store
+I1105 08:49:07.566362  3199 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_6/1 (network state: with network device)
+I1105 08:49:07.568427  3199 rdma_context.cpp:407] RDMA device: mlx5_bond_6, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:0c:c6:00:00:00:00:00:00:00:01
+I1105 08:49:07.568439  3199 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_7 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1105 08:49:07.568441  3199 rdma_context.cpp:311] Using SIEVE endpoint store
+I1105 08:49:07.573307  3199 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_7/1 (network state: with network device)
+I1105 08:49:07.575380  3199 rdma_context.cpp:407] RDMA device: mlx5_bond_7, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:0c:c7:00:00:00:00:00:00:00:01
+I1105 08:49:07.575438  3199 transfer_metadata.cpp:61] NIC path intern pool size=1
+I1105 08:49:07.575479  3199 transfer_engine_impl.cpp:480] Using RDMA transport (RoCE/iWARP)
+BEGIN iteration=-8 mode=single
+I1105 08:49:07.747498  3199 transfer_engine_py.cpp:976] transferSync, cache not found, openSegment with target 11.163.39.110:15818
+PASS iteration=-8 bytes=536870912 seconds=0.087560
+BEGIN iteration=-7 mode=single
+PASS iteration=-7 bytes=536870912 seconds=0.085942
+BEGIN iteration=-6 mode=single
+PASS iteration=-6 bytes=536870912 seconds=0.085784
+BEGIN iteration=-5 mode=single
+PASS iteration=-5 bytes=536870912 seconds=0.085157
+BEGIN iteration=-4 mode=single
+PASS iteration=-4 bytes=536870912 seconds=0.009484
+BEGIN iteration=-3 mode=single
+PASS iteration=-3 bytes=536870912 seconds=0.009605
+BEGIN iteration=-2 mode=single
+PASS iteration=-2 bytes=536870912 seconds=0.009697
+BEGIN iteration=-1 mode=single
+PASS iteration=-1 bytes=536870912 seconds=0.009755
+BEGIN iteration=0 mode=single
+PASS iteration=0 bytes=536870912 seconds=0.009498
+BEGIN iteration=1 mode=single
+PASS iteration=1 bytes=536870912 seconds=0.009517
+BEGIN iteration=2 mode=single
+PASS iteration=2 bytes=536870912 seconds=0.009710
+BEGIN iteration=3 mode=single
+PASS iteration=3 bytes=536870912 seconds=0.009356
+BEGIN iteration=4 mode=single
+PASS iteration=4 bytes=536870912 seconds=0.009455
+BEGIN iteration=5 mode=single
+PASS iteration=5 bytes=536870912 seconds=0.009542
+BEGIN iteration=6 mode=single
+PASS iteration=6 bytes=536870912 seconds=0.009857
+BEGIN iteration=7 mode=single
+PASS iteration=7 bytes=536870912 seconds=0.009511
+BEGIN iteration=8 mode=single
+PASS iteration=8 bytes=536870912 seconds=0.009542
+BEGIN iteration=9 mode=single
+PASS iteration=9 bytes=536870912 seconds=0.009524
+BEGIN iteration=10 mode=single
+PASS iteration=10 bytes=536870912 seconds=0.009702
+BEGIN iteration=11 mode=single
+PASS iteration=11 bytes=536870912 seconds=0.009395
+BEGIN iteration=12 mode=single
+PASS iteration=12 bytes=536870912 seconds=0.009528
+BEGIN iteration=13 mode=single
+PASS iteration=13 bytes=536870912 seconds=0.009569
+BEGIN iteration=14 mode=single
+PASS iteration=14 bytes=536870912 seconds=0.009753
+BEGIN iteration=15 mode=single
+PASS iteration=15 bytes=536870912 seconds=0.009383
+BEGIN iteration=16 mode=single
+PASS iteration=16 bytes=536870912 seconds=0.009484
+BEGIN iteration=17 mode=single
+PASS iteration=17 bytes=536870912 seconds=0.009554
+BEGIN iteration=18 mode=single
+PASS iteration=18 bytes=536870912 seconds=0.009675
+BEGIN iteration=19 mode=single
+PASS iteration=19 bytes=536870912 seconds=0.009399
+I1105 08:49:17.766702  3199 transfer_metadata.cpp:829] removeSegmentDesc 11.163.39.114:16605 finish

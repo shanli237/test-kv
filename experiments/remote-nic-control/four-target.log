@@ -1,0 +1,65 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W1105 09:06:23.427461  3242 transfer_engine_py.cpp:301] Using 64KB-aligned malloc/free for protocol: rdma
+I1105 09:06:23.427529  3242 transfer_engine_impl.cpp:1184] Metrics reporting is disabled (set MC_TE_METRIC=1 to enable)
+I1105 09:06:23.427574  3242 transfer_engine_impl.cpp:147] Transfer Engine parseHostNameWithPort. server_name: 11.163.39.110 port: 0
+I1105 09:06:23.427623  3242 transfer_engine_impl.cpp:214] Transfer Engine RPC using P2P handshake, listening on 11.163.39.110:16930
+I1105 09:06:23.427719  3242 transfer_engine_impl.cpp:318] Auto-discovering topology...
+I1105 09:06:23.427726  3242 topology.cpp:175] IB device whitelist: mlx5_bond_0,mlx5_bond_1,mlx5_bond_2,mlx5_bond_3
+I1105 09:06:23.428097  3242 topology.cpp:236] Skipping device: mlx5_2
+I1105 09:06:23.428102  3242 topology.cpp:236] Skipping device: mlx5_3
+I1105 09:06:23.428102  3242 topology.cpp:236] Skipping device: mlx5_4
+I1105 09:06:23.428103  3242 topology.cpp:236] Skipping device: mlx5_5
+I1105 09:06:23.433075  3242 topology.cpp:134] Device mlx5_bond_0 port 1 is available
+I1105 09:06:23.438453  3242 topology.cpp:134] Device mlx5_bond_1 port 1 is available
+I1105 09:06:23.443418  3242 topology.cpp:134] Device mlx5_bond_2 port 1 is available
+I1105 09:06:23.448458  3242 topology.cpp:134] Device mlx5_bond_3 port 1 is available
+I1105 09:06:23.448855  3242 topology.cpp:236] Skipping device: mlx5_bond_4
+I1105 09:06:23.448858  3242 topology.cpp:236] Skipping device: mlx5_bond_5
+I1105 09:06:23.448859  3242 topology.cpp:236] Skipping device: mlx5_bond_6
+I1105 09:06:23.448861  3242 topology.cpp:236] Skipping device: mlx5_bond_7
+I1105 09:06:33.532173  3242 transfer_engine_impl.cpp:345] Topology discovery complete. Found 4 HCAs.
+I1105 09:06:33.532238  3242 rdma_transport.cpp:267] [RDMA] Relaxed ordering is supported on this host; IBV_ACCESS_RELAXED_ORDERING will be requested for registered memory regions.
+I1105 09:06:33.532263  3242 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_0 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1105 09:06:33.532267  3242 rdma_context.cpp:311] Using SIEVE endpoint store
+I1105 09:06:33.537540  3242 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_0/1 (network state: with network device)
+I1105 09:06:33.539646  3242 rdma_context.cpp:407] RDMA device: mlx5_bond_0, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:7d:80:00:00:00:00:00:00:00:01
+I1105 09:06:33.539659  3242 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_1 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1105 09:06:33.539664  3242 rdma_context.cpp:311] Using SIEVE endpoint store
+I1105 09:06:33.544705  3242 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_1/1 (network state: with network device)
+I1105 09:06:33.546845  3242 rdma_context.cpp:407] RDMA device: mlx5_bond_1, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:7d:81:00:00:00:00:00:00:00:01
+I1105 09:06:33.546856  3242 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_2 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1105 09:06:33.546859  3242 rdma_context.cpp:311] Using SIEVE endpoint store
+I1105 09:06:33.551888  3242 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_2/1 (network state: with network device)
+I1105 09:06:33.554011  3242 rdma_context.cpp:407] RDMA device: mlx5_bond_2, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:7d:82:00:00:00:00:00:00:00:01
+I1105 09:06:33.554020  3242 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_3 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1105 09:06:33.554023  3242 rdma_context.cpp:311] Using SIEVE endpoint store
+I1105 09:06:33.575824  3242 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_3/1 (network state: with network device)
+I1105 09:06:33.577867  3242 rdma_context.cpp:407] RDMA device: mlx5_bond_3, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:7d:83:00:00:00:00:00:00:00:01
+I1105 09:06:33.577929  3242 transfer_metadata.cpp:61] NIC path intern pool size=1
+I1105 09:06:33.577979  3242 transfer_engine_impl.cpp:480] Using RDMA transport (RoCE/iWARP)
+READY
+I1105 09:06:44.531401  3247 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 09:06:44.536835  3247 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 09:06:44.570075  3247 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 09:06:44.575258  3247 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 09:06:49.699892  3247 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 09:06:49.704576  3247 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 09:06:49.738787  3247 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 09:06:49.744433  3247 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 09:07:16.070207  3247 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 09:07:16.075178  3247 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 09:07:16.108924  3247 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 09:07:16.114135  3247 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 09:07:28.154304  3247 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 09:07:28.159294  3247 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 09:07:28.192268  3247 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 09:07:28.197371  3247 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 09:07:41.110977  3247 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 09:07:41.115839  3247 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 09:07:41.149335  3247 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 09:07:41.154611  3247 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 09:07:52.590036  3247 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 09:07:52.595835  3247 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 09:07:52.628669  3247 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 09:07:52.633571  3247 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 09:08:28.315359  3242 transfer_metadata.cpp:829] removeSegmentDesc 11.163.39.110:16930 finish

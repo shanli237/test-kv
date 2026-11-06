@@ -1,0 +1,141 @@
+{
+  "scope": "cross-host GPU KV WRITE",
+  "status": "passed",
+  "requests": 14,
+  "pd_requests": 11,
+  "comparisons": [
+    {
+      "prompt_tokens": 22,
+      "exact_text_match": true
+    },
+    {
+      "prompt_tokens": 1673,
+      "exact_text_match": true
+    },
+    {
+      "prompt_tokens": 6665,
+      "exact_text_match": true
+    }
+  ],
+  "transfers": [
+    {
+      "pid": 5274,
+      "transfer_id": 0,
+      "bytes": 393216,
+      "descriptors": 48,
+      "operation": "WRITE",
+      "duration_ms": 33.524532,
+      "rc": 0,
+      "t_s": 37.438050048
+    },
+    {
+      "pid": 5274,
+      "transfer_id": 1,
+      "bytes": 20643840,
+      "descriptors": 2520,
+      "operation": "WRITE",
+      "duration_ms": 5.466775,
+      "rc": 0,
+      "t_s": 38.756689664
+    },
+    {
+      "pid": 5274,
+      "transfer_id": 2,
+      "bytes": 81985536,
+      "descriptors": 10008,
+      "operation": "WRITE",
+      "duration_ms": 21.053118,
+      "rc": 0,
+      "t_s": 39.895012352
+    },
+    {
+      "pid": 5274,
+      "transfer_id": 3,
+      "bytes": 14352384,
+      "descriptors": 1752,
+      "operation": "WRITE",
+      "duration_ms": 4.779192,
+      "rc": 0,
+      "t_s": 40.639026176
+    },
+    {
+      "pid": 5274,
+      "transfer_id": 4,
+      "bytes": 14352384,
+      "descriptors": 1752,
+      "operation": "WRITE",
+      "duration_ms": 3.7805,
+      "rc": 0,
+      "t_s": 40.644735232
+    },
+    {
+      "pid": 5274,
+      "transfer_id": 5,
+      "bytes": 14352384,
+      "descriptors": 1752,
+      "operation": "WRITE",
+      "duration_ms": 4.603604,
+      "rc": 0,
+      "t_s": 41.095757824
+    },
+    {
+      "pid": 5274,
+      "transfer_id": 6,
+      "bytes": 14352384,
+      "descriptors": 1752,
+      "operation": "WRITE",
+      "duration_ms": 3.619147,
+      "rc": 0,
+      "t_s": 41.100896256
+    },
+    {
+      "pid": 5274,
+      "transfer_id": 7,
+      "bytes": 14352384,
+      "descriptors": 1752,
+      "operation": "WRITE",
+      "duration_ms": 5.072891,
+      "rc": 0,
+      "t_s": 41.56313216
+    },
+    {
+      "pid": 5274,
+      "transfer_id": 8,
+      "bytes": 14352384,
+      "descriptors": 1752,
+      "operation": "WRITE",
+      "duration_ms": 4.588743,
+      "rc": 0,
+      "t_s": 41.568698112
+    },
+    {
+      "pid": 5274,
+      "transfer_id": 9,
+      "bytes": 14352384,
+      "descriptors": 1728,
+      "operation": "WRITE",
+      "duration_ms": 4.646787,
+      "rc": 0,
+      "t_s": 42.030198272
+    },
+    {
+      "pid": 5274,
+      "transfer_id": 10,
+      "bytes": 14352384,
+      "descriptors": 1728,
+      "operation": "WRITE",
+      "duration_ms": 4.027393,
+      "rc": 0,
+      "t_s": 42.03541248
+    }
+  ],
+  "clock_offset_ms": -0.1569205,
+  "clock_bound_ms": 0.0608685,
+  "total_KV_bytes": 217841664,
+  "all_transfer_calls_succeeded": true,
+  "gpu_affinity_examples": [
+    "I1106 08:17:13.988426  6513 worker_pool.cpp:661] RDMA slice affinity: source_location=cuda:0, target_location=cuda:0, local_device_name=mlx5_bond_0, peer_device_name=mlx5_bond_0, target_id=1, source_addr=0x7f4a7d884000, dest_addr=0x7fb1dd5e2000, length=8192",
+    "I1106 08:17:13.988428  6513 worker_pool.cpp:661] RDMA slice affinity: source_location=cuda:0, target_location=cuda:0, local_device_name=mlx5_bond_0, peer_device_name=mlx5_bond_0, target_id=1, source_addr=0x7f4a7d886000, dest_addr=0x7fb1dd5e0000, length=8192",
+    "I1106 08:17:13.988430  6513 worker_pool.cpp:661] RDMA slice affinity: source_location=cuda:0, target_location=cuda:0, local_device_name=mlx5_bond_0, peer_device_name=mlx5_bond_0, target_id=1, source_addr=0x7f4a7d888000, dest_addr=0x7fb1dd5de000, length=8192"
+  ]
+}

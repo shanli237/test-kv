@@ -1,0 +1,5 @@
+{"event": "register_memory", "pid": 3610, "mono_ns": 12711035889396788, "wall_ns": 1793952220896031691, "addresses": [140636019752960], "sizes": [1073676288], "bytes": 1073676288, "rc": 0}
+{"event": "call_start", "pid": 3610, "mono_ns": 12711104075588810, "wall_ns": 1793952289082223674, "transfer_id": 0, "operation": "WRITE", "remote": "11.163.39.114:16755", "bytes": 196608, "descriptors": 24, "source_first": 140636019761152, "target_first": 140567300284416}
+{"event": "call_end", "pid": 3610, "mono_ns": 12711104119262152, "wall_ns": 1793952289125896702, "transfer_id": 0, "operation": "WRITE", "duration_ns": 43366431, "rc": 0}
+{"event": "call_start", "pid": 3610, "mono_ns": 12711202633997724, "wall_ns": 1793952387640632417, "transfer_id": 1, "operation": "WRITE", "remote": "11.163.39.114:16755", "bytes": 393216, "descriptors": 48, "source_first": 140636019761152, "target_first": 140567300300800}
+{"event": "call_end", "pid": 3610, "mono_ns": 12711202634751721, "wall_ns": 1793952387641386015, "transfer_id": 1, "operation": "WRITE", "duration_ns": 346712, "rc": 0}

@@ -1,0 +1,4 @@
+PASS single-nic-single
+PASS single-nic-batch
+PASS multi-nic-single
+PASS multi-nic-batch

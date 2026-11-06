@@ -1,0 +1,3 @@
+  File "/workspace/FuseLink/testvllm/monitoring/sample_nics.py", line 65
+    out.write(json.dumps(dict(type='metadata', host=socket.gethostname(), pid=os.getpid(),
+IndentationError: unexpected indent

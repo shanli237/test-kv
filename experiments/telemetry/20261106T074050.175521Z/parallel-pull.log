@@ -1,0 +1,77 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W1106 07:41:20.730938 10515 transfer_engine_py.cpp:301] Using 64KB-aligned malloc/free for protocol: rdma
+I1106 07:41:20.731016 10515 transfer_engine_impl.cpp:1184] Metrics reporting is disabled (set MC_TE_METRIC=1 to enable)
+I1106 07:41:20.731058 10515 transfer_engine_impl.cpp:147] Transfer Engine parseHostNameWithPort. server_name: 11.163.39.114 port: 0
+I1106 07:41:20.731086 10515 transfer_engine_impl.cpp:214] Transfer Engine RPC using P2P handshake, listening on 11.163.39.114:16678
+I1106 07:41:20.731158 10515 transfer_engine_impl.cpp:318] Auto-discovering topology...
+I1106 07:41:20.731163 10515 topology.cpp:175] IB device whitelist: mlx5_bond_0
+I1106 07:41:20.736207 10515 topology.cpp:134] Device mlx5_bond_0 port 1 is available
+I1106 07:41:21.921368 10515 transfer_engine_impl.cpp:345] Topology discovery complete. Found 1 HCAs.
+I1106 07:41:21.921427 10515 rdma_transport.cpp:267] [RDMA] Relaxed ordering is supported on this host; IBV_ACCESS_RELAXED_ORDERING will be requested for registered memory regions.
+I1106 07:41:21.921447 10515 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_0 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1106 07:41:21.921451 10515 rdma_context.cpp:311] Using SIEVE endpoint store
+I1106 07:41:21.926628 10515 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_0/1 (network state: with network device)
+I1106 07:41:21.928601 10515 rdma_context.cpp:407] RDMA device: mlx5_bond_0, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:0c:c0:00:00:00:00:00:00:00:01
+I1106 07:41:21.928640 10515 transfer_metadata.cpp:61] NIC path intern pool size=1
+I1106 07:41:21.928689 10515 transfer_engine_impl.cpp:480] Using RDMA transport (RoCE/iWARP)
+BEGIN iteration=-2 mode=parallel
+I1106 07:41:22.023375 10560 transfer_engine_py.cpp:976] transferSync, cache not found, openSegment with target 11.163.39.110:16236
+PASS iteration=-2 bytes=268435456 seconds=0.037771
+BEGIN iteration=-1 mode=parallel
+W1106 07:41:22.204953 10563 multi_transport.cpp:151] Batch 140266719678016 is still busy; cleanup has been deferred
+PASS iteration=-1 bytes=268435456 seconds=0.007000
+BEGIN iteration=0 mode=parallel
+W1106 07:41:22.352087 10563 multi_transport.cpp:151] Batch 140266719678656 is still busy; cleanup has been deferred
+PASS iteration=0 bytes=268435456 seconds=0.005837
+BEGIN iteration=1 mode=parallel
+W1106 07:41:22.492868 10560 multi_transport.cpp:151] Batch 140267323691008 is still busy; cleanup has been deferred
+W1106 07:41:22.494925 10563 multi_transport.cpp:151] Batch 140266719711968 is still busy; cleanup has been deferred
+PASS iteration=1 bytes=268435456 seconds=0.006089
+BEGIN iteration=2 mode=parallel
+PASS iteration=2 bytes=268435456 seconds=0.005807
+BEGIN iteration=3 mode=parallel
+PASS iteration=3 bytes=268435456 seconds=0.005797
+BEGIN iteration=4 mode=parallel
+PASS iteration=4 bytes=268435456 seconds=0.005791
+BEGIN iteration=5 mode=parallel
+W1106 07:41:23.076215 10561 multi_transport.cpp:151] Batch 140266853895744 is still busy; cleanup has been deferred
+PASS iteration=5 bytes=268435456 seconds=0.005824
+BEGIN iteration=6 mode=parallel
+PASS iteration=6 bytes=268435456 seconds=0.005776
+BEGIN iteration=7 mode=parallel
+PASS iteration=7 bytes=268435456 seconds=0.005855
+BEGIN iteration=8 mode=parallel
+PASS iteration=8 bytes=268435456 seconds=0.005840
+BEGIN iteration=9 mode=parallel
+PASS iteration=9 bytes=268435456 seconds=0.005853
+BEGIN iteration=10 mode=parallel
+PASS iteration=10 bytes=268435456 seconds=0.005902
+BEGIN iteration=11 mode=parallel
+PASS iteration=11 bytes=268435456 seconds=0.005878
+BEGIN iteration=12 mode=parallel
+PASS iteration=12 bytes=268435456 seconds=0.005812
+BEGIN iteration=13 mode=parallel
+PASS iteration=13 bytes=268435456 seconds=0.005899
+BEGIN iteration=14 mode=parallel
+PASS iteration=14 bytes=268435456 seconds=0.005840
+BEGIN iteration=15 mode=parallel
+W1106 07:41:24.544667 10561 multi_transport.cpp:151] Batch 140266853896192 is still busy; cleanup has been deferred
+PASS iteration=15 bytes=268435456 seconds=0.005816
+BEGIN iteration=16 mode=parallel
+W1106 07:41:24.687297 10561 multi_transport.cpp:151] Batch 140266853896384 is still busy; cleanup has been deferred
+PASS iteration=16 bytes=268435456 seconds=0.006164
+BEGIN iteration=17 mode=parallel
+PASS iteration=17 bytes=268435456 seconds=0.005860
+BEGIN iteration=18 mode=parallel
+PASS iteration=18 bytes=268435456 seconds=0.005785
+BEGIN iteration=19 mode=parallel
+PASS iteration=19 bytes=268435456 seconds=0.005858
+BEGIN iteration=20 mode=parallel
+PASS iteration=20 bytes=268435456 seconds=0.005863
+BEGIN iteration=21 mode=parallel
+PASS iteration=21 bytes=268435456 seconds=0.005903
+BEGIN iteration=22 mode=parallel
+PASS iteration=22 bytes=268435456 seconds=0.005955
+BEGIN iteration=23 mode=parallel
+PASS iteration=23 bytes=268435456 seconds=0.006080
+I1106 07:41:25.831326 10515 transfer_metadata.cpp:829] removeSegmentDesc 11.163.39.114:16678 finish

@@ -1,0 +1,22 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W1105 07:25:09.581696 10344 transfer_engine_py.cpp:301] Using 64KB-aligned malloc/free for protocol: rdma
+I1105 07:25:09.581748 10344 transfer_engine_impl.cpp:1184] Metrics reporting is disabled (set MC_TE_METRIC=1 to enable)
+I1105 07:25:09.581784 10344 transfer_engine_impl.cpp:147] Transfer Engine parseHostNameWithPort. server_name: 11.163.39.110 port: 0
+I1105 07:25:09.581809 10344 transfer_engine_impl.cpp:214] Transfer Engine RPC using P2P handshake, listening on 11.163.39.110:15357
+I1105 07:25:09.581887 10344 transfer_engine_impl.cpp:318] Auto-discovering topology...
+I1105 07:25:09.581892 10344 topology.cpp:175] IB device whitelist: mlx5_bond_0
+I1105 07:25:09.587277 10344 topology.cpp:134] Device mlx5_bond_0 port 1 is available
+I1105 07:25:11.819159 10344 transfer_engine_impl.cpp:345] Topology discovery complete. Found 1 HCAs.
+I1105 07:25:11.819195 10344 rdma_transport.cpp:267] [RDMA] Relaxed ordering is supported on this host; IBV_ACCESS_RELAXED_ORDERING will be requested for registered memory regions.
+I1105 07:25:11.819218 10344 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_0 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1105 07:25:11.819221 10344 rdma_context.cpp:311] Using SIEVE endpoint store
+I1105 07:25:11.824456 10344 rdma_context.cpp:1363] Selected auto GID[3] on mlx5_bond_0 with class network-routable
+I1105 07:25:11.824462 10344 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_0/1 (network state: with network device)
+I1105 07:25:11.826507 10344 rdma_context.cpp:407] RDMA device: mlx5_bond_0, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:7d:80:00:00:00:00:00:00:00:01
+I1105 07:25:11.826543 10344 transfer_metadata.cpp:61] NIC path intern pool size=1
+I1105 07:25:11.826601 10344 transfer_engine_impl.cpp:480] Using RDMA transport (RoCE/iWARP)
+W1105 07:25:12.000567 10344 memory_location.cpp:196] Failed to get NUMA node, addr: 0x7f6314000000, len: 268435456: Operation not permitted [1]
+READY
+I1105 07:25:13.923434 10346 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:16.422519 10346 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:18.184947 10344 transfer_metadata.cpp:829] removeSegmentDesc 11.163.39.110:15357 finish

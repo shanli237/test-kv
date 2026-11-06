@@ -1,0 +1,114 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W1105 07:25:21.833237 10541 transfer_engine_py.cpp:301] Using 64KB-aligned malloc/free for protocol: rdma
+I1105 07:25:21.833299 10541 transfer_engine_impl.cpp:1184] Metrics reporting is disabled (set MC_TE_METRIC=1 to enable)
+I1105 07:25:21.833340 10541 transfer_engine_impl.cpp:147] Transfer Engine parseHostNameWithPort. server_name: 11.163.39.110 port: 0
+I1105 07:25:21.833370 10541 transfer_engine_impl.cpp:214] Transfer Engine RPC using P2P handshake, listening on 11.163.39.110:15637
+I1105 07:25:21.833437 10541 transfer_engine_impl.cpp:318] Auto-discovering topology...
+I1105 07:25:21.833443 10541 topology.cpp:175] IB device whitelist: mlx5_bond_0,mlx5_bond_1,mlx5_bond_2,mlx5_bond_3,mlx5_bond_4,mlx5_bond_5,mlx5_bond_6,mlx5_bond_7
+I1105 07:25:21.833818 10541 topology.cpp:236] Skipping device: mlx5_2
+I1105 07:25:21.833822 10541 topology.cpp:236] Skipping device: mlx5_3
+I1105 07:25:21.833822 10541 topology.cpp:236] Skipping device: mlx5_4
+I1105 07:25:21.833823 10541 topology.cpp:236] Skipping device: mlx5_5
+I1105 07:25:21.838749 10541 topology.cpp:134] Device mlx5_bond_0 port 1 is available
+I1105 07:25:21.843858 10541 topology.cpp:134] Device mlx5_bond_1 port 1 is available
+I1105 07:25:21.848639 10541 topology.cpp:134] Device mlx5_bond_2 port 1 is available
+I1105 07:25:21.853276 10541 topology.cpp:134] Device mlx5_bond_3 port 1 is available
+I1105 07:25:21.858070 10541 topology.cpp:134] Device mlx5_bond_4 port 1 is available
+I1105 07:25:21.862701 10541 topology.cpp:134] Device mlx5_bond_5 port 1 is available
+I1105 07:25:21.867324 10541 topology.cpp:134] Device mlx5_bond_6 port 1 is available
+I1105 07:25:21.871960 10541 topology.cpp:134] Device mlx5_bond_7 port 1 is available
+I1105 07:25:22.478475 10541 transfer_engine_impl.cpp:345] Topology discovery complete. Found 8 HCAs.
+I1105 07:25:22.478519 10541 rdma_transport.cpp:267] [RDMA] Relaxed ordering is supported on this host; IBV_ACCESS_RELAXED_ORDERING will be requested for registered memory regions.
+I1105 07:25:22.478544 10541 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_0 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1105 07:25:22.478547 10541 rdma_context.cpp:311] Using SIEVE endpoint store
+I1105 07:25:22.483883 10541 rdma_context.cpp:1363] Selected auto GID[3] on mlx5_bond_0 with class network-routable
+I1105 07:25:22.483891 10541 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_0/1 (network state: with network device)
+I1105 07:25:22.485879 10541 rdma_context.cpp:407] RDMA device: mlx5_bond_0, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:7d:80:00:00:00:00:00:00:00:01
+I1105 07:25:22.485893 10541 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_1 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1105 07:25:22.485895 10541 rdma_context.cpp:311] Using SIEVE endpoint store
+I1105 07:25:22.490778 10541 rdma_context.cpp:1363] Selected auto GID[3] on mlx5_bond_1 with class network-routable
+I1105 07:25:22.490787 10541 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_1/1 (network state: with network device)
+I1105 07:25:22.492862 10541 rdma_context.cpp:407] RDMA device: mlx5_bond_1, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:7d:81:00:00:00:00:00:00:00:01
+I1105 07:25:22.492871 10541 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_2 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1105 07:25:22.492873 10541 rdma_context.cpp:311] Using SIEVE endpoint store
+I1105 07:25:22.497756 10541 rdma_context.cpp:1363] Selected auto GID[3] on mlx5_bond_2 with class network-routable
+I1105 07:25:22.497761 10541 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_2/1 (network state: with network device)
+I1105 07:25:22.499873 10541 rdma_context.cpp:407] RDMA device: mlx5_bond_2, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:7d:82:00:00:00:00:00:00:00:01
+I1105 07:25:22.499883 10541 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_3 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1105 07:25:22.499886 10541 rdma_context.cpp:311] Using SIEVE endpoint store
+I1105 07:25:22.527799 10541 rdma_context.cpp:1363] Selected auto GID[3] on mlx5_bond_3 with class network-routable
+I1105 07:25:22.527807 10541 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_3/1 (network state: with network device)
+I1105 07:25:22.530004 10541 rdma_context.cpp:407] RDMA device: mlx5_bond_3, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:7d:83:00:00:00:00:00:00:00:01
+I1105 07:25:22.530013 10541 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_4 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1105 07:25:22.530016 10541 rdma_context.cpp:311] Using SIEVE endpoint store
+I1105 07:25:22.535006 10541 rdma_context.cpp:1363] Selected auto GID[3] on mlx5_bond_4 with class network-routable
+I1105 07:25:22.535014 10541 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_4/1 (network state: with network device)
+I1105 07:25:22.537147 10541 rdma_context.cpp:407] RDMA device: mlx5_bond_4, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:7d:84:00:00:00:00:00:00:00:01
+I1105 07:25:22.537159 10541 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_5 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1105 07:25:22.537161 10541 rdma_context.cpp:311] Using SIEVE endpoint store
+I1105 07:25:22.542119 10541 rdma_context.cpp:1363] Selected auto GID[3] on mlx5_bond_5 with class network-routable
+I1105 07:25:22.542125 10541 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_5/1 (network state: with network device)
+I1105 07:25:22.544409 10541 rdma_context.cpp:407] RDMA device: mlx5_bond_5, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:7d:85:00:00:00:00:00:00:00:01
+I1105 07:25:22.544442 10541 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_6 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1105 07:25:22.544446 10541 rdma_context.cpp:311] Using SIEVE endpoint store
+I1105 07:25:22.549707 10541 rdma_context.cpp:1363] Selected auto GID[3] on mlx5_bond_6 with class network-routable
+I1105 07:25:22.549715 10541 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_6/1 (network state: with network device)
+I1105 07:25:22.551829 10541 rdma_context.cpp:407] RDMA device: mlx5_bond_6, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:7d:86:00:00:00:00:00:00:00:01
+I1105 07:25:22.551841 10541 rdma_transport.cpp:1611] Increasing RDMA CQ count for mlx5_bond_7 to match workers_per_ctx=2 for worker-owned endpoint polling
+I1105 07:25:22.551843 10541 rdma_context.cpp:311] Using SIEVE endpoint store
+I1105 07:25:22.556684 10541 rdma_context.cpp:1363] Selected auto GID[3] on mlx5_bond_7 with class network-routable
+I1105 07:25:22.556692 10541 rdma_context.cpp:1684] Find best gid index: 3 on mlx5_bond_7/1 (network state: with network device)
+I1105 07:25:22.558888 10541 rdma_context.cpp:407] RDMA device: mlx5_bond_7, LID: 0, GID: (GID_Index 3) fd:03:45:16:02:00:7d:87:00:00:00:00:00:00:00:01
+I1105 07:25:22.558964 10541 transfer_metadata.cpp:61] NIC path intern pool size=1
+I1105 07:25:22.559026 10541 transfer_engine_impl.cpp:480] Using RDMA transport (RoCE/iWARP)
+W1105 07:25:22.789891 10541 memory_location.cpp:196] Failed to get NUMA node, addr: 0x7ff0e8000000, len: 268435456: Operation not permitted [1]
+READY
+I1105 07:25:24.810101 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:24.814935 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:24.853189 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:24.857944 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:24.882408 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:24.923712 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:24.964021 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:25.003252 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:28.692802 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:28.697778 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:28.753439 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:28.758651 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:28.792842 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:28.832036 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:28.870240 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:28.908901 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:32.685091 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:32.690873 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:32.744546 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:32.749744 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:32.792991 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:32.833986 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:32.874708 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:32.917387 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:39.249682 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:39.255509 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:39.308918 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:39.313782 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:39.351625 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:39.389672 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:39.429350 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:39.467917 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:43.200495 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:43.205060 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:43.238272 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:43.242439 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:43.269811 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:43.297685 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:43.336119 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:43.375557 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:47.184270 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:47.189932 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:47.222182 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:47.227420 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:47.250047 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:47.277098 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:47.303926 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:47.332216 10543 rdma_endpoint.cpp:1051] Received RDMA ready ACK.
+I1105 07:25:51.939316 10541 transfer_metadata.cpp:829] removeSegmentDesc 11.163.39.110:15637 finish

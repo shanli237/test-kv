@@ -1,0 +1,320 @@
+{
+  "numa-performance": {
+    "performance": {
+      "multi-nic-performance-batch": {
+        "median_ms": 9.690908947959542,
+        "min_ms": 9.521753992885351,
+        "max_ms": 83.25140597298741,
+        "median_GBps": 55.39943826559636,
+        "iterations": 10,
+        "warmup": 2,
+        "verified": true,
+        "local_rx_GiB": {
+          "mlx5_0": 0.0,
+          "mlx5_2": 0.0002523958683013916,
+          "mlx5_3": 1.0728836059570312e-06,
+          "mlx5_4": 0.0,
+          "mlx5_bond_0": 1.5287501439452171,
+          "mlx5_bond_1": 1.5287490002810955,
+          "mlx5_bond_2": 1.528749156743288,
+          "mlx5_bond_3": 1.5287512503564358,
+          "mlx5_bond_4": 0.0,
+          "mlx5_bond_5": 0.0,
+          "mlx5_bond_6": 0.0,
+          "mlx5_bond_7": 0.0
+        }
+      },
+      "multi-nic-performance-parallel": {
+        "median_ms": 2.8906716033816338,
+        "min_ms": 2.8461753390729427,
+        "max_ms": 2.978741191327572,
+        "median_GBps": 185.72532119246787,
+        "iterations": 10,
+        "warmup": 2,
+        "verified": true,
+        "local_rx_GiB": {
+          "mlx5_0": 0.0,
+          "mlx5_2": 0.00016120076179504395,
+          "mlx5_3": 0.0,
+          "mlx5_4": 0.0,
+          "mlx5_bond_0": 1.5287492200732231,
+          "mlx5_bond_1": 1.5287483595311642,
+          "mlx5_bond_2": 1.5287484042346478,
+          "mlx5_bond_3": 1.528749193996191,
+          "mlx5_bond_4": 0.0,
+          "mlx5_bond_5": 0.0,
+          "mlx5_bond_6": 0.0,
+          "mlx5_bond_7": 0.0
+        }
+      },
+      "multi-nic-performance-single": {
+        "median_ms": 9.786749258637428,
+        "min_ms": 9.479172062128782,
+        "max_ms": 84.48426937684417,
+        "median_GBps": 54.856919065968434,
+        "iterations": 10,
+        "warmup": 2,
+        "verified": true,
+        "local_rx_GiB": {
+          "mlx5_0": 0.0,
+          "mlx5_2": 0.0001609325408935547,
+          "mlx5_3": 0.0,
+          "mlx5_4": 0.0,
+          "mlx5_bond_0": 1.528750441968441,
+          "mlx5_bond_1": 1.5287491083145142,
+          "mlx5_bond_2": 1.5287495963275433,
+          "mlx5_bond_3": 1.5287523306906223,
+          "mlx5_bond_4": 0.0,
+          "mlx5_bond_5": 0.0,
+          "mlx5_bond_6": 0.0,
+          "mlx5_bond_7": 0.0
+        }
+      },
+      "single-nic-performance-batch": {
+        "median_ms": 11.525283567607403,
+        "min_ms": 11.470149271190166,
+        "max_ms": 11.631299741566181,
+        "median_GBps": 46.58201326246864,
+        "iterations": 10,
+        "warmup": 2,
+        "verified": true,
+        "local_rx_GiB": {
+          "mlx5_0": 0.0,
+          "mlx5_2": 0.00016066431999206543,
+          "mlx5_3": 0.0,
+          "mlx5_4": 0.0,
+          "mlx5_bond_0": 6.114991094917059,
+          "mlx5_bond_1": 2.682209014892578e-07,
+          "mlx5_bond_2": 4.209578037261963e-07,
+          "mlx5_bond_3": 2.0936131477355957e-06,
+          "mlx5_bond_4": 0.0,
+          "mlx5_bond_5": 0.0,
+          "mlx5_bond_6": 0.0,
+          "mlx5_bond_7": 0.0
+        }
+      },
+      "single-nic-performance-parallel": {
+        "median_ms": 11.459281900897622,
+        "min_ms": 11.293645016849041,
+        "max_ms": 12.211699038743973,
+        "median_GBps": 46.850310223884634,
+        "iterations": 10,
+        "warmup": 2,
+        "verified": true,
+        "local_rx_GiB": {
+          "mlx5_0": 0.0,
+          "mlx5_2": 0.00016120076179504395,
+          "mlx5_3": 0.0,
+          "mlx5_4": 0.0,
+          "mlx5_bond_0": 6.114992648363113,
+          "mlx5_bond_1": 1.4640390872955322e-06,
+          "mlx5_bond_2": 1.7955899238586426e-06,
+          "mlx5_bond_3": 3.6545097827911377e-06,
+          "mlx5_bond_4": 0.0,
+          "mlx5_bond_5": 0.0,
+          "mlx5_bond_6": 0.0,
+          "mlx5_bond_7": 0.0
+        }
+      },
+      "single-nic-performance-single": {
+        "median_ms": 11.507845018059015,
+        "min_ms": 11.370374821126461,
+        "max_ms": 11.859329883009195,
+        "median_GBps": 46.65260186920313,
+        "iterations": 10,
+        "warmup": 2,
+        "verified": true,
+        "local_rx_GiB": {
+          "mlx5_0": 0.0,
+          "mlx5_2": 0.00025159120559692383,
+          "mlx5_3": 1.0728836059570312e-06,
+          "mlx5_4": 0.0,
+          "mlx5_bond_0": 6.1149933114647865,
+          "mlx5_bond_1": 1.2516975402832031e-06,
+          "mlx5_bond_2": 1.1771917343139648e-06,
+          "mlx5_bond_3": 3.691762685775757e-06,
+          "mlx5_bond_4": 0.0,
+          "mlx5_bond_5": 0.0,
+          "mlx5_bond_6": 0.0,
+          "mlx5_bond_7": 0.0
+        }
+      }
+    },
+    "diagnostic_bytes_by_location_and_nic": {
+      "single-nic-diagnostic-single": {
+        "cpu:0 | cpu:0 | mlx5_bond_0 | mlx5_bond_0": 536870912
+      },
+      "single-nic-diagnostic-batch": {
+        "cpu:0 | cpu:0 | mlx5_bond_0 | mlx5_bond_0": 536870912
+      },
+      "single-nic-diagnostic-parallel": {
+        "cpu:0 | cpu:0 | mlx5_bond_0 | mlx5_bond_0": 536870912
+      },
+      "multi-nic-diagnostic-single": {
+        "cpu:0 | cpu:0 | mlx5_bond_2 | mlx5_bond_1": 134217728,
+        "cpu:0 | cpu:0 | mlx5_bond_2 | mlx5_bond_0": 134217728,
+        "cpu:0 | cpu:0 | mlx5_bond_2 | mlx5_bond_3": 134217728,
+        "cpu:0 | cpu:0 | mlx5_bond_2 | mlx5_bond_2": 134217728
+      },
+      "multi-nic-diagnostic-batch": {
+        "cpu:0 | cpu:0 | mlx5_bond_1 | mlx5_bond_0": 134217728,
+        "cpu:0 | cpu:0 | mlx5_bond_1 | mlx5_bond_3": 134217728,
+        "cpu:0 | cpu:0 | mlx5_bond_1 | mlx5_bond_2": 134217728,
+        "cpu:0 | cpu:0 | mlx5_bond_1 | mlx5_bond_1": 134217728
+      },
+      "multi-nic-diagnostic-parallel": {
+        "cpu:0 | cpu:0 | mlx5_bond_3 | mlx5_bond_2": 67108864,
+        "cpu:0 | cpu:0 | mlx5_bond_2 | mlx5_bond_1": 67108864,
+        "cpu:0 | cpu:0 | mlx5_bond_3 | mlx5_bond_1": 67108864,
+        "cpu:0 | cpu:0 | mlx5_bond_2 | mlx5_bond_0": 67108864,
+        "cpu:0 | cpu:0 | mlx5_bond_3 | mlx5_bond_0": 67108864,
+        "cpu:0 | cpu:0 | mlx5_bond_2 | mlx5_bond_3": 67108864,
+        "cpu:0 | cpu:0 | mlx5_bond_3 | mlx5_bond_3": 67108864,
+        "cpu:0 | cpu:0 | mlx5_bond_2 | mlx5_bond_2": 67108864
+      }
+    }
+  },
+  "numa-performance-warm": {
+    "performance": {
+      "multi-nic-performance-batch": {
+        "median_ms": 9.722022106871009,
+        "min_ms": 9.532560128718615,
+        "max_ms": 10.446469765156507,
+        "median_GBps": 55.22214474502872,
+        "iterations": 20,
+        "warmup": 8,
+        "verified": true,
+        "local_rx_GiB": {
+          "mlx5_0": 0.0,
+          "mlx5_2": 0.0004425644874572754,
+          "mlx5_3": 0.0,
+          "mlx5_4": 0.0,
+          "mlx5_bond_0": 3.567084312438965,
+          "mlx5_bond_1": 3.5670823268592358,
+          "mlx5_bond_2": 3.567082207649946,
+          "mlx5_bond_3": 3.567086935043335,
+          "mlx5_bond_4": 0.0,
+          "mlx5_bond_5": 0.0,
+          "mlx5_bond_6": 0.0,
+          "mlx5_bond_7": 0.0
+        }
+      },
+      "multi-nic-performance-parallel": {
+        "median_ms": 5.254046991467476,
+        "min_ms": 5.000218283385038,
+        "max_ms": 5.506942048668861,
+        "median_GBps": 102.18235826057008,
+        "iterations": 20,
+        "warmup": 8,
+        "verified": true,
+        "local_rx_GiB": {
+          "mlx5_0": 0.0,
+          "mlx5_2": 0.0003623664379119873,
+          "mlx5_3": 0.0,
+          "mlx5_4": 0.0,
+          "mlx5_bond_0": 3.567083451896906,
+          "mlx5_bond_1": 3.5670806281268597,
+          "mlx5_bond_2": 3.567080680280924,
+          "mlx5_bond_3": 3.5670849680900574,
+          "mlx5_bond_4": 0.0,
+          "mlx5_bond_5": 0.0,
+          "mlx5_bond_6": 0.0,
+          "mlx5_bond_7": 0.0
+        }
+      },
+      "multi-nic-performance-single": {
+        "median_ms": 9.526136796921492,
+        "min_ms": 9.356288705021143,
+        "max_ms": 9.856774937361479,
+        "median_GBps": 56.35767399156997,
+        "iterations": 20,
+        "warmup": 8,
+        "verified": true,
+        "local_rx_GiB": {
+          "mlx5_0": 0.0,
+          "mlx5_2": 0.00040206313133239746,
+          "mlx5_3": 0.0,
+          "mlx5_4": 0.0,
+          "mlx5_bond_0": 3.5670843049883842,
+          "mlx5_bond_1": 3.5670811235904694,
+          "mlx5_bond_2": 3.567081730812788,
+          "mlx5_bond_3": 3.5670859068632126,
+          "mlx5_bond_4": 0.0,
+          "mlx5_bond_5": 0.0,
+          "mlx5_bond_6": 0.0,
+          "mlx5_bond_7": 0.0
+        }
+      },
+      "single-nic-performance-batch": {
+        "median_ms": 11.467997916042805,
+        "min_ms": 11.429955717176199,
+        "max_ms": 11.793448124080896,
+        "median_GBps": 46.81470261247265,
+        "iterations": 20,
+        "warmup": 8,
+        "verified": true,
+        "local_rx_GiB": {
+          "mlx5_0": 0.0,
+          "mlx5_2": 0.0004929900169372559,
+          "mlx5_3": 1.0728836059570312e-06,
+          "mlx5_4": 0.0,
+          "mlx5_bond_0": 14.268315307796001,
+          "mlx5_bond_1": 1.691281795501709e-06,
+          "mlx5_bond_2": 2.3692846298217773e-06,
+          "mlx5_bond_3": 6.206333637237549e-06,
+          "mlx5_bond_4": 0.0,
+          "mlx5_bond_5": 0.0,
+          "mlx5_bond_6": 0.0,
+          "mlx5_bond_7": 0.0
+        }
+      },
+      "single-nic-performance-parallel": {
+        "median_ms": 11.431989958509803,
+        "min_ms": 11.303336825221777,
+        "max_ms": 12.0356110855937,
+        "median_GBps": 46.962157415154245,
+        "iterations": 20,
+        "warmup": 8,
+        "verified": true,
+        "local_rx_GiB": {
+          "mlx5_0": 0.0,
+          "mlx5_2": 0.00040206313133239746,
+          "mlx5_3": 0.0,
+          "mlx5_4": 0.0,
+          "mlx5_bond_0": 14.268315982073545,
+          "mlx5_bond_1": 2.905726432800293e-06,
+          "mlx5_bond_2": 3.3937394618988037e-06,
+          "mlx5_bond_3": 7.752329111099243e-06,
+          "mlx5_bond_4": 0.0,
+          "mlx5_bond_5": 0.0,
+          "mlx5_bond_6": 0.0,
+          "mlx5_bond_7": 0.0
+        }
+      },
+      "single-nic-performance-single": {
+        "median_ms": 11.508616851642728,
+        "min_ms": 11.364270932972431,
+        "max_ms": 12.292393948882818,
+        "median_GBps": 46.649473079240416,
+        "iterations": 20,
+        "warmup": 8,
+        "verified": true,
+        "local_rx_GiB": {
+          "mlx5_0": 0.0,
+          "mlx5_2": 0.0005334913730621338,
+          "mlx5_3": 1.0728836059570312e-06,
+          "mlx5_4": 0.0,
+          "mlx5_bond_0": 14.26831579208374,
+          "mlx5_bond_1": 3.285706043243408e-06,
+          "mlx5_bond_2": 3.7439167499542236e-06,
+          "mlx5_bond_3": 7.8640878200531e-06,
+          "mlx5_bond_4": 0.0,
+          "mlx5_bond_5": 0.0,
+          "mlx5_bond_6": 0.0,
+          "mlx5_bond_7": 0.0
+        }
+      }
+    },
+    "diagnostic_bytes_by_location_and_nic": {}
+  }
+}
